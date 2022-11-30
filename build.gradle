@@ -1,0 +1,65 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url '/repo/' }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            allowInsecureProtocol true
+        }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://oss.sonatype.org/content/repositories/public/' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public" }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            allowInsecureProtocol true
+        }
+        maven {
+            url 'http://developer.huawei.com/repo/'
+            allowInsecureProtocol true
+        }
+        maven { url "https://jitpack.io" }
+        maven { url "https://plugins.gradle.org/m2/" }
+        mavenCentral()
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven { url '/repo/' }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            allowInsecureProtocol true
+        }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://oss.sonatype.org/content/repositories/public/' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public" }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            allowInsecureProtocol true
+        }
+        maven {
+            url 'http://developer.huawei.com/repo/'
+            allowInsecureProtocol true
+        }
+        maven { url "https://jitpack.io" }
+        maven { url "https://plugins.gradle.org/m2/" }
+        mavenCentral()
+        jcenter()
+        google()
+    }
+}

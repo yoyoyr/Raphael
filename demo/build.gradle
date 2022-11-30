@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+
+        ndk {
+            abiFilters  'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+        }
+    }
+
+    signingConfigs {
+        release {
+            // 签名store文件路径
+            storeFile file('../keystore')
+            // 签名store文件的密码
+            storePassword 'tde123'
+            // 别名
+            keyAlias 'key0'
+            // 别名的密码
+            keyPassword 'tde123'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs {
+                setSrcDirs (['./libs'] as Set)
+            }
+        }
+
+    }
+
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.18.1'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':library')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+//    implementation 'com.github.bytedance:memory-leak-detector:0.2.1'
+}
