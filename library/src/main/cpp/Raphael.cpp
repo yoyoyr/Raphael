@@ -35,13 +35,14 @@ void Raphael::start(JNIEnv *env, jobject obj, jint configs, jstring space, jstri
     mCache = new MemoryCache(mSpace);
     update_configs(mCache, 0);
 
-    if (regex != nullptr) {
+    if (regex != nullptr) {//xdl相关
         registerSoLoadProxy(env, regex);
     } else {
         registerInlineProxy(env);
     }
 
     mCache->reset();
+    //创建线程私有数据，类似ThreadLocal？？？
     pthread_key_create(&guard, nullptr);
     LOGGER("start >>> %#x, %s", (uint) configs, mSpace);
     update_configs(mCache, configs);
