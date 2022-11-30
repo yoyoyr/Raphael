@@ -21,6 +21,10 @@ import android.util.Log;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
+/**
+ * 对于当前已经加载的so，使用xhook
+ * 对于非当前已加载so，使用android-inline-hook
+ */
 @Keep
 public class Raphael {
     public static int MAP64_MODE = 0x00800000;
