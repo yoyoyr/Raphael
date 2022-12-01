@@ -255,6 +255,7 @@ int default_callback(const char *name, uintptr_t base) {
     if (0 != xh_elf_init(&elf, base, name)) {
         return 0;
     }
+    //hook关心的内存分配和释放函数
     if (!use_regex || (regexec(&focused_regex, name, 0, NULL, 0) == 0)) {
         tryHookAllFunc(elf);
     }
@@ -277,6 +278,13 @@ int so_load_callback(const char *name, uintptr_t base, so_load_data *data) {
     return 0;
 }
 
+/**
+ *
+ * @param name  动态库名字
+ * @param base
+ * @param data
+ * @return
+ */
 int common_callback(const char *name, uintptr_t base, void *data) {
     int ret = 0;
 

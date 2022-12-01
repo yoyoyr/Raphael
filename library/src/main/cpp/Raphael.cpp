@@ -35,9 +35,9 @@ void Raphael::start(JNIEnv *env, jobject obj, jint configs, jstring space, jstri
     mCache = new MemoryCache(mSpace);
     update_configs(mCache, 0);
 
-    if (regex != nullptr) {//xdl相关
+    if (regex != nullptr) {//指定解析的so库
         registerSoLoadProxy(env, regex);
-    } else {
+    } else {//hook所有
         registerInlineProxy(env);
     }
 

@@ -92,6 +92,8 @@ static void (*pthread_exit_origin)(void *) = pthread_exit;
 
 //**************************************************************************************************
 static void *malloc_proxy(size_t size) {
+    //limit 需要记录分配内存的最小大小
+    //pthread_getspecific 获取线程私有数据，类似ThreadLocal
     if (isPss && size >= limit && !(uintptr_t) pthread_getspecific(guard)) {
         pthread_setspecific(guard, (void *) 1);
         void *address = malloc_origin(size);
