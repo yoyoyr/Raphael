@@ -24,7 +24,12 @@
 #include "Logger.h"
 #include "MapData.h"
 #include "MemoryCache.h"
-
+/**
+ * 缓存类
+ * @param header
+ * @param address
+ * @return
+ */
 //**************************************************************************************************
 inline AllocNode *remove_alloc(AllocNode **header, uintptr_t address) {
     AllocNode *hptr = *header;
@@ -108,6 +113,7 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
 }
 
 MemoryCache::MemoryCache(const char *sdcard) : Cache(sdcard) {
+    //获取互斥锁
     pthread_mutex_init(&alloc_mutex, NULL);
     alloc_cache = new AllocPool(ALLOC_CACHE_SIZE);
 }
