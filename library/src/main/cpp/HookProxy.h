@@ -59,6 +59,7 @@ void update_configs(Cache *pNew, uint32_t params) {
 
 //**************************************************************************************************
 static inline void insert_memory_backtrace(void *address, size_t size) {
+    LOGGER("unwind >>> ");
     Backtrace backtrace;
     backtrace.depth = 0;
 
@@ -68,6 +69,7 @@ static inline void insert_memory_backtrace(void *address, size_t size) {
     backtrace.depth = unwind_backtrace(backtrace.trace, depth + 1);
 #endif
 
+    LOGGER("unwind >>>11 %s", backtrace.trace);
     cache->insert((uintptr_t) address, size, &backtrace);
 }
 

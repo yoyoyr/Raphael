@@ -13,14 +13,16 @@
 #include <unistd.h>
 #include <vector>
 
+void mmapTest() {
+    char *mapping = static_cast<char *>(
+            mmap(nullptr, 4 * 1025, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0));
+    __android_log_print(ANDROID_LOG_INFO, "hello", "%s", &"jni will crash");
+}
 extern "C"
 JNIEXPORT void JNICALL
 Java_com_bytedance_demo_MemoryHookTestNative_mma(JNIEnv *env, jclass clazz) {
-    mmapTest()
-}
-
-void mmapTest(){
-    char* mapping = static_cast<char*>(
+//    mmapTest();
+    char *mapping = static_cast<char *>(
             mmap(nullptr, 4 * 1025, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0));
     __android_log_print(ANDROID_LOG_INFO, "hello", "%s", &"jni will crash");
 }

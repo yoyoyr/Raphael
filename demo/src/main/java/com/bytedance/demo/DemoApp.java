@@ -16,12 +16,9 @@ public class DemoApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        String space = new File(getCacheDir(), "raphael").getAbsolutePath();
-        System.out.println("path " + space);
-        File file = new File(space);
-        file.mkdir();
-        file.setExecutable(true,false);
-        Raphael.start(Raphael.MAP64_MODE | Raphael.ALLOC_MODE | 0x0F0000 | 1024, space, null);
+        System.loadLibrary("ewjh");
+        String space = Environment.getExternalStorageDirectory().getPath() + "/raphael";
+        Raphael.start(Raphael.MAP64_MODE | Raphael.ALLOC_MODE | 0x0F0000 | 1024, space, ".*libewjh\\.so$");
 //      Raphael.start(Raphael.MAP64_MODE|Raphael.ALLOC_MODE|0x0F0000|1024, space, ".*libhwui\\.so$");
     }
 }

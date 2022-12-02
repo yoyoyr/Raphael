@@ -115,218 +115,169 @@
 7235d000-7235e000 rw-p 00003000 fd:06 1913                               /system/framework/arm64/boot-miui-telephony-common.oat
 7235e000-72aac000 rw-p 00000000 00:00 0                                  [anon:dalvik-zygote space]
 72aac000-72aad000 rw-p 00000000 00:00 0                                  [anon:dalvik-non moving space]
-72aad000-72ad0000 rw-p 00000000 00:00 0                                  [anon:dalvik-non moving space]
-72ad0000-75b5f000 ---p 00000000 00:00 0                                  [anon:dalvik-non moving space]
+72aad000-72ace000 rw-p 00000000 00:00 0                                  [anon:dalvik-non moving space]
+72ace000-75b5f000 ---p 00000000 00:00 0                                  [anon:dalvik-non moving space]
 75b5f000-7635e000 rw-p 00000000 00:00 0                                  [anon:dalvik-non moving space]
 7635e000-9635e000 rw-p 00000000 00:00 0                                  [anon:dalvik-free list large object space]
 9635e000-9835e000 r--s 00000000 00:01 29536                              /memfd:jit-zygote-cache (deleted)
 9835e000-9a35e000 r-xs 02000000 00:01 29536                              /memfd:jit-zygote-cache (deleted)
-9a35e000-9c35e000 r--s 00000000 00:01 93540971                           /memfd:jit-cache (deleted)
-9c35e000-9e35e000 r-xs 02000000 00:01 93540971                           /memfd:jit-cache (deleted)
+9a35e000-9c35e000 r--s 00000000 00:01 113414708                          /memfd:jit-cache (deleted)
+9c35e000-9e35e000 r-xs 02000000 00:01 113414708                          /memfd:jit-cache (deleted)
 ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:dalvik-Sentinel fault page]
 5a6f660000-5a6f662000 r--p 00000000 fd:06 519                            /system/bin/app_process64
 5a6f662000-5a6f664000 r-xp 00002000 fd:06 519                            /system/bin/app_process64
 5a6f664000-5a6f665000 r--p 00004000 fd:06 519                            /system/bin/app_process64
-6ee5e58000-6ee7458000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
-6ee7458000-6ee7da6000 ---p 00000000 00:00 0 
-6ee7da6000-6ee7da8000 rw-p 00000000 00:00 0 
-6ee7da8000-6ee87de000 ---p 00000000 00:00 0 
-6ee87de000-6ee87e0000 rw-p 00000000 00:00 0 
-6ee87e0000-6eea02c000 ---p 00000000 00:00 0 
-6eea02c000-6eea02e000 rw-p 00000000 00:00 0 
-6eea02e000-6eea458000 ---p 00000000 00:00 0 
-6eea458000-6eea459000 ---p 00000000 00:00 0 
-6eea459000-6eea45a000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28606]
-6eea45a000-6eea555000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28606]
-6eea555000-6eea557000 ---p 00000000 00:00 0 
-6eea557000-6eea558000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28605]
-6eea558000-6eea653000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28605]
-6eea653000-6eea654000 ---p 00000000 00:00 0 
-6eeaaa9000-6eeb1a9000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
-6eeb1a9000-6eeb1aa000 ---p 00000000 00:00 0 
-6eeb1aa000-6eeb2a6000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28622]
-6eeb2a6000-6eeb2a7000 ---p 00000000 00:00 0 
-6eeb2a7000-6eeb2a8000 r--p 00000000 fd:06 2902                           /system/lib64/libboost.so
-6eeb2a8000-6eeb2a9000 r-xp 00001000 fd:06 2902                           /system/lib64/libboost.so
-6eeb2a9000-6eeb2aa000 r--p 00002000 fd:06 2902                           /system/lib64/libboost.so
-6eeb2aa000-6eeb2ab000 rw-p 00002000 fd:06 2902                           /system/lib64/libboost.so
-6eeb2e9000-6eeb2ed000 r--p 00000000 fd:07 783                            /system_ext/lib64/libmigui.so
-6eeb2ed000-6eeb2f0000 r-xp 00004000 fd:07 783                            /system_ext/lib64/libmigui.so
-6eeb2f0000-6eeb2f1000 r--p 00007000 fd:07 783                            /system_ext/lib64/libmigui.so
-6eeb2f1000-6eeb2f2000 rw-p 00007000 fd:07 783                            /system_ext/lib64/libmigui.so
-6eeb392000-6eeb452000 rw-s 00020000 00:11 2737                           /dev/kgsl-3d0
-6eeb452000-6eeb752000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
-6eeb752000-6eeb755000 r--p 00000000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
-6eeb755000-6eeb757000 r-xp 00003000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
-6eeb757000-6eeb758000 r--p 00005000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
-6eeb758000-6eeb759000 rw-p 00005000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
-6eeb794000-6eeb892000 r--p 00000000 00:1d 5                              /dev/binderfs/hwbinder
-6eeb892000-6eebb12000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
-6eebb12000-6eebc10000 r--p 00000000 00:1d 5                              /dev/binderfs/hwbinder
-6eebc10000-6eebce3000 r--p 00000000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
-6eebce3000-6eec16e000 r-xp 000d3000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
-6eec16e000-6eec171000 r--p 0055e000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
-6eec171000-6eec17c000 rw-p 00000000 00:00 0                              [anon:.bss]
-6eec17c000-6eec3e0000 rw-p 00000000 fd:0b 1743406                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.vdex
-6eec3e0000-6eec3e1000 r--p 00561000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
-6eec3e1000-6eec3e2000 rw-p 00562000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
-6eec400000-6eed400000 ---p 00000000 00:00 0 
-6eed406000-6eed426000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6eed426000-6eed446000 rw-s 0002e000 00:11 2737                           /dev/kgsl-3d0
-6eed446000-6eed448000 r--p 00000000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
-6eed448000-6eed44a000 r-xp 00002000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
-6eed44a000-6eed44b000 r--p 00004000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
-6eed44b000-6eed44c000 rw-p 00004000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
-6eed44f000-6eed48f000 rw-s 00021000 00:11 2737                           /dev/kgsl-3d0
-6eed48f000-6eed4af000 rw-s 0001b000 00:11 2737                           /dev/kgsl-3d0
-6eed4af000-6eed4cf000 rw-s 00019000 00:11 2737                           /dev/kgsl-3d0
-6eed4cf000-6eed4ef000 r--s 00000000 00:11 2509                           /dev/__properties__/u:object_r:vendor_gralloc_prop:s0
-6eed4ef000-6eed50f000 r--s 00000000 00:11 2347                           /dev/__properties__/u:object_r:hwservicemanager_prop:s0
-6eed50f000-6eed512000 r--p 00000000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
-6eed512000-6eed516000 r-xp 00003000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
-6eed516000-6eed517000 r--p 00007000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
-6eed517000-6eed518000 rw-p 00000000 00:00 0                              [anon:.bss]
-6eed518000-6eed51b000 rw-p 00000000 fd:0b 1696074                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.vdex
-6eed51b000-6eed51c000 r--p 00008000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
-6eed51c000-6eed51d000 rw-p 00009000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
-6eed538000-6eed5d8000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6eed5d8000-6eed5db000 r--p 00000000 fd:0b 1996918                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.dex
-6eed5db000-6eed5de000 rw-p 00000000 fd:0b 1996920                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.vdex
-6eed5de000-6eed5df000 r--p 00003000 fd:0b 1996918                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.dex
-6eed5df000-6eed5e0000 rw-p 00004000 fd:0b 1996918                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.dex
-6eed5e3000-6eed603000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6eed603000-6eed633000 r--p 00000000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
-6eed633000-6eed722000 r-xp 00030000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
-6eed722000-6eed723000 r--p 0011f000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
-6eed723000-6eed726000 rw-p 00000000 00:00 0                              [anon:.bss]
-6eed726000-6eed7fa000 rw-p 00000000 fd:0b 1888600                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.vdex
-6eed7fa000-6eed7fb000 r--p 00120000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
-6eed7fb000-6eed7fc000 rw-p 00121000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
-6eed800000-6eede00000 ---p 00000000 00:00 0 
-6eede09000-6eede49000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6eede49000-6eedec1000 r--p 00000000 fd:06 1998                           /system/framework/org.apache.http.legacy.jar
-6eedec1000-6eedecf000 r--p 00000000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
-6eedecf000-6eedf11000 r-xp 0000e000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
-6eedf11000-6eedf12000 r--p 00050000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
-6eedf12000-6eedf13000 rw-p 00000000 00:00 0                              [anon:.bss]
-6eedf13000-6eedf15000 rw-p 00000000 fd:0b 1911071                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.vdex
-6eedf15000-6eedf16000 r--p 00051000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
-6eedf16000-6eedf17000 rw-p 00052000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
-6eedf29000-6eedf49000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6eedf49000-6eedfb9000 r--p 00000000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
-6eedfb9000-6eee222000 r-xp 00070000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
-6eee222000-6eee224000 r--p 002d9000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
-6eee224000-6eee22a000 rw-p 00000000 00:00 0                              [anon:.bss]
-6eee22a000-6eee3a9000 rw-p 00000000 fd:0b 1872104                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.vdex
-6eee3a9000-6eee3aa000 r--p 002db000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
-6eee3aa000-6eee3ab000 rw-p 002dc000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
-6eee3c0000-6eee400000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6eee400000-6ef2200000 ---p 00000000 00:00 0 
-6ef220b000-6ef220d000 r--p 00000000 fd:0b 1996885                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.dex
-6ef220d000-6ef2235000 rw-p 00000000 fd:0b 1996886                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.vdex
-6ef2235000-6ef2236000 r--p 00002000 fd:0b 1996885                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.dex
-6ef2236000-6ef2237000 rw-p 00003000 fd:0b 1996885                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.dex
-6ef2251000-6ef2488000 ---p 00000000 00:00 0 
-6ef2488000-6ef248a000 rw-p 00000000 00:00 0 
-6ef248a000-6ef3324000 ---p 00000000 00:00 0 
-6ef3324000-6ef3326000 rw-p 00000000 00:00 0 
-6ef3326000-6ef4251000 ---p 00000000 00:00 0 
-6ef4251000-6ef429a000 r-xp 00000000 fd:0b 1636521                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/lib/arm64/libraphael.so
-6ef429a000-6ef429b000 ---p 00000000 00:00 0 
-6ef429b000-6ef429f000 r--p 00049000 fd:0b 1636521                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/lib/arm64/libraphael.so
-6ef429f000-6ef42a0000 rw-p 0004d000 fd:0b 1636521                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/lib/arm64/libraphael.so
-6ef42a0000-6ef42a1000 rw-p 00000000 00:00 0                              [anon:.bss]
-6ef42a1000-6ef42ae000 rwxp 00000000 00:00 0                              [anon:.bss]
-6ef42ca000-6ef42ea000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6ef42ea000-6ef4369000 r--s 000a7000 fd:06 502                            /system/app/miui/miui.apk
-6ef4369000-6ef4400000 r--s 00066000 fd:06 280                            /system/app/MiuiContentCatcher/MiuiContentCatcher.apk
-6ef4400000-6ef6800000 ---p 00000000 00:00 0 
-6ef680d000-6ef682d000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6ef682d000-6ef686c000 r--p 00000000 fd:06 4837                           /system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
-6ef686c000-6ef686d000 r-xp 00000000 fd:0b 1637992                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/lib/arm64/libtest.so
-6ef686d000-6ef686e000 r--p 00000000 fd:0b 1637992                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/lib/arm64/libtest.so
-6ef6888000-6ef68a8000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6ef68a8000-6ef7b67000 r--p 00000000 fd:06 1613                           /system/fonts/MiSansVF.ttf
-6ef7b67000-6ef8e26000 r--s 00000000 fd:06 1613                           /system/fonts/MiSansVF.ttf
-6ef8e26000-6ef8ec0000 ---p 00000000 00:00 0 
-6ef8ec0000-6ef8ec2000 rw-p 00000000 00:00 0 
-6ef8ec2000-6ef9e26000 ---p 00000000 00:00 0 
-6ef9e26000-6efa002000 rw-p 00000000 fd:0b 1670544                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/oat/arm64/base.vdex
-6efa019000-6efa039000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6efa039000-6efa063000 r--s 002b7000 fd:06 502                            /system/app/miui/miui.apk
-6efa063000-6efa08a000 r--s 002c0000 fd:06 280                            /system/app/MiuiContentCatcher/MiuiContentCatcher.apk
-6efa08a000-6efa08b000 ---p 00000000 00:00 0 
-6efa08b000-6efa08c000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28601]
-6efa08c000-6efa193000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28601]
-6efa193000-6efa194000 ---p 00000000 00:00 0 
-6efa194000-6efa1b4000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6efa1b4000-6efa1b5000 ---p 00000000 00:00 0 
-6efa1b5000-6efa1b6000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28598]
-6efa1b6000-6efa2b1000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28598]
-6efa2b1000-6efa2b2000 ---p 00000000 00:00 0 
-6efa2b2000-6efa8b2000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
-6efa8b2000-6efa9bf000 r--p 00000000 fd:06 1809                           /system/fonts/NotoSerifTibetan-VF.ttf
-6efa9bf000-6efaa17000 r--p 00000000 fd:06 1748                           /system/fonts/NotoSansSinhalaUI-VF.ttf
-6efaa17000-6efaa6f000 r--p 00000000 fd:06 1747                           /system/fonts/NotoSansSinhala-VF.ttf
-6efaa6f000-6efaa9d000 r--p 00000000 fd:06 1680                           /system/fonts/NotoSansKannadaUI-VF.ttf
-6efaa9d000-6efaae0000 r--p 00000000 fd:06 1767                           /system/fonts/NotoSansTeluguUI-VF.ttf
-6efaae0000-6efab24000 r--p 00000000 fd:06 1766                           /system/fonts/NotoSansTelugu-VF.ttf
-6efab24000-6efab61000 r--p 00000000 fd:06 1637                           /system/fonts/NotoSansBengaliUI-VF.ttf
-6efab61000-6efab9e000 r--p 00000000 fd:06 1636                           /system/fonts/NotoSansBengali-VF.ttf
-6efab9e000-6efabdb000 r--p 00000000 fd:06 1654                           /system/fonts/NotoSansDevanagariUI-VF.ttf
-6efabdb000-6efac49000 r--p 00000000 fd:06 1657                           /system/fonts/NotoSansEthiopic-VF.ttf
-6efac49000-6efac4a000 r--p 00000000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
-6efac4a000-6efac4b000 r-xp 00001000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
-6efac4b000-6efac4c000 r--p 00002000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
-6efac4c000-6efac4d000 rw-p 00002000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
-6efac54000-6efac88000 r--p 00000000 fd:06 1679                           /system/fonts/NotoSansKannada-VF.ttf
-6efac88000-6efac89000 ---p 00000000 00:00 0 
-6efac89000-6efac8a000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28597]
-6efac8a000-6efad85000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28597]
-6efad85000-6efad86000 ---p 00000000 00:00 0 
-6efad86000-6efaf75000 r--p 00000000 fd:0b 1719724                        /data/data/com.bytedance.raphael.demo/code_cache/.overlay/base.apk/classes.dex
-6efaf75000-6efb107000 r--s 00000000 00:01 47191                          /dev/ashmem/fontMap (deleted)
-6efb107000-6efbe6e000 ---p 00000000 00:00 0 
-6efbe6e000-6efbe70000 rw-p 00000000 00:00 0 
-6efbe70000-6efc107000 ---p 00000000 00:00 0 
-6efc107000-6efc108000 ---p 00000000 00:00 0 
-6efc108000-6efc109000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28593]
-6efc109000-6efc210000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28593]
-6efc210000-6efc211000 ---p 00000000 00:00 0 
-6efc211000-6efcfd6000 ---p 00000000 00:00 0 
-6efcfd6000-6efcfd8000 rw-p 00000000 00:00 0 
-6efcfd8000-6efd768000 ---p 00000000 00:00 0 
-6efd768000-6efd76a000 rw-p 00000000 00:00 0 
-6efd76a000-6efed8e000 ---p 00000000 00:00 0 
-6efed8e000-6efed90000 rw-p 00000000 00:00 0 
-6efed90000-6eff780000 ---p 00000000 00:00 0 
-6eff780000-6eff782000 rw-p 00000000 00:00 0 
-6eff782000-6f0032e000 ---p 00000000 00:00 0 
-6f0032e000-6f00330000 rw-p 00000000 00:00 0 
-6f00330000-6f01d18000 ---p 00000000 00:00 0 
-6f01d18000-6f01d1a000 rw-p 00000000 00:00 0 
-6f01d1a000-6f024fe000 ---p 00000000 00:00 0 
-6f024fe000-6f02500000 rw-p 00000000 00:00 0 
-6f02500000-6f03596000 ---p 00000000 00:00 0 
-6f03596000-6f03598000 rw-p 00000000 00:00 0 
-6f03598000-6f04ba6000 ---p 00000000 00:00 0 
-6f04ba6000-6f04ba8000 rw-p 00000000 00:00 0 
-6f04ba8000-6f05444000 ---p 00000000 00:00 0 
-6f05444000-6f05446000 rw-p 00000000 00:00 0 
-6f05446000-6f071c0000 ---p 00000000 00:00 0 
-6f071c0000-6f071c2000 rw-p 00000000 00:00 0 
-6f071c2000-6f08158000 ---p 00000000 00:00 0 
-6f08158000-6f0815a000 rw-p 00000000 00:00 0 
-6f0815a000-6f08211000 ---p 00000000 00:00 0 
+6ee432d000-6ee672d000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+6ee672d000-6ee7624000 ---p 00000000 00:00 0
+6ee7624000-6ee7626000 rw-p 00000000 00:00 0
+6ee7626000-6ee80be000 ---p 00000000 00:00 0
+6ee80be000-6ee80c0000 rw-p 00000000 00:00 0
+6ee80c0000-6ee9016000 ---p 00000000 00:00 0
+6ee9016000-6ee9018000 rw-p 00000000 00:00 0
+6ee9018000-6ee9de4000 ---p 00000000 00:00 0
+6ee9de4000-6ee9de6000 rw-p 00000000 00:00 0
+6ee9de6000-6eeab10000 ---p 00000000 00:00 0
+6eeab10000-6eeab12000 rw-p 00000000 00:00 0
+6eeab12000-6eeb72d000 ---p 00000000 00:00 0
+6eeb72d000-6eeb72e000 ---p 00000000 00:00 0
+6eeb72e000-6eeb72f000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15286]
+6eeb72f000-6eeb82a000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15286]
+6eeb82a000-6eeb82c000 ---p 00000000 00:00 0
+6eeb82c000-6eeb82d000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15285]
+6eeb82d000-6eeb928000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15285]
+6eeb928000-6eeb929000 ---p 00000000 00:00 0
+6eebb97000-6eec297000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+6eec297000-6eec298000 r-xp 00000000 fd:0b 1636623                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/lib/arm64/libtest.so
+6eec298000-6eec299000 r--p 00000000 fd:0b 1636623                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/lib/arm64/libtest.so
+6eec2df000-6eec2e0000 ---p 00000000 00:00 0
+6eec2e0000-6eec3dc000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15310]
+6eec3dc000-6eec3dd000 ---p 00000000 00:00 0
+6eec3dd000-6eec3de000 r--p 00000000 fd:06 2902                           /system/lib64/libboost.so
+6eec3de000-6eec3df000 r-xp 00001000 fd:06 2902                           /system/lib64/libboost.so
+6eec3df000-6eec3e0000 r--p 00002000 fd:06 2902                           /system/lib64/libboost.so
+6eec3e0000-6eec3e1000 rw-p 00002000 fd:06 2902                           /system/lib64/libboost.so
+6eec403000-6eec407000 r--p 00000000 fd:07 783                            /system_ext/lib64/libmigui.so
+6eec407000-6eec40a000 r-xp 00004000 fd:07 783                            /system_ext/lib64/libmigui.so
+6eec40a000-6eec40b000 r--p 00007000 fd:07 783                            /system_ext/lib64/libmigui.so
+6eec40b000-6eec40c000 rw-p 00007000 fd:07 783                            /system_ext/lib64/libmigui.so
+6eec46b000-6eec52b000 rw-s 00020000 00:11 2737                           /dev/kgsl-3d0
+6eec52b000-6eec52c000 ---p 00000000 00:00 0
+6eec52c000-6eec628000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15291]
+6eec628000-6eec62a000 ---p 00000000 00:00 0
+6eec62a000-6eec726000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15288]
+6eec726000-6eec727000 ---p 00000000 00:00 0
+6eec727000-6eeca27000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+6eeca27000-6eeca2a000 r--p 00000000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
+6eeca2a000-6eeca2c000 r-xp 00003000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
+6eeca2c000-6eeca2d000 r--p 00005000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
+6eeca2d000-6eeca2e000 rw-p 00005000 fd:07 768                            /system_ext/lib64/libhwuiinsptrdl.so
+6eeca7b000-6eecb79000 r--p 00000000 00:1d 5                              /dev/binderfs/hwbinder
+6eecb79000-6eecdf9000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+6eecdf9000-6eecdfb000 r--p 00000000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
+6eecdfb000-6eecdfd000 r-xp 00002000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
+6eecdfd000-6eecdfe000 r--p 00004000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
+6eecdfe000-6eecdff000 rw-p 00004000 fd:09 3557                           /vendor/lib64/hw/gralloc.default.so
+6eece18000-6eeceeb000 r--p 00000000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
+6eeceeb000-6eed376000 r-xp 000d3000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
+6eed376000-6eed379000 r--p 0055e000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
+6eed379000-6eed384000 rw-p 00000000 00:00 0                              [anon:.bss]
+6eed384000-6eed5e8000 rw-p 00000000 fd:0b 1743406                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.vdex
+6eed5e8000-6eed5e9000 r--p 00561000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
+6eed5e9000-6eed5ea000 rw-p 00562000 fd:0b 1744354                        /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex
+6eed600000-6ef0600000 ---p 00000000 00:00 0
+6ef0607000-6ef0637000 r--p 00000000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
+6ef0637000-6ef0726000 r-xp 00030000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
+6ef0726000-6ef0727000 r--p 0011f000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
+6ef0727000-6ef072a000 rw-p 00000000 00:00 0                              [anon:.bss]
+6ef072a000-6ef07fe000 rw-p 00000000 fd:0b 1888600                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.vdex
+6ef07fe000-6ef07ff000 r--p 00120000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
+6ef07ff000-6ef0800000 rw-p 00121000 fd:0b 1888572                        /data/dalvik-cache/arm64/system@app@miuisystem@miuisystem.apk@classes.dex
+6ef0800000-6ef2c00000 ---p 00000000 00:00 0
+6ef2c65000-6ef2d63000 r--p 00000000 00:1d 5                              /dev/binderfs/hwbinder
+6ef2d63000-6ef2d66000 r--p 00000000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
+6ef2d66000-6ef2d6a000 r-xp 00003000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
+6ef2d6a000-6ef2d6b000 r--p 00007000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
+6ef2d6b000-6ef2d6c000 rw-p 00000000 00:00 0                              [anon:.bss]
+6ef2d6c000-6ef2d6f000 rw-p 00000000 fd:0b 1696074                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.vdex
+6ef2d6f000-6ef2d70000 r--p 00008000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
+6ef2d70000-6ef2d71000 rw-p 00009000 fd:0b 1696062                        /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex
+6ef2d95000-6ef2e05000 r--p 00000000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
+6ef2e05000-6ef306e000 r-xp 00070000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
+6ef306e000-6ef3070000 r--p 002d9000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
+6ef3070000-6ef3076000 rw-p 00000000 00:00 0                              [anon:.bss]
+6ef3076000-6ef31f5000 rw-p 00000000 fd:0b 1872104                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.vdex
+6ef31f5000-6ef31f6000 r--p 002db000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
+6ef31f6000-6ef31f7000 rw-p 002dc000 fd:0b 1876700                        /data/dalvik-cache/arm64/system@app@miui@miui.apk@classes.dex
+6ef3200000-6ef7000000 ---p 00000000 00:00 0
+6ef701f000-6ef7097000 r--p 00000000 fd:06 1998                           /system/framework/org.apache.http.legacy.jar
+6ef7097000-6ef709a000 r--p 00000000 fd:0b 1996918                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.dex
+6ef709a000-6ef709d000 rw-p 00000000 fd:0b 1996920                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.vdex
+6ef709d000-6ef709e000 r--p 00003000 fd:0b 1996918                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.dex
+6ef709e000-6ef709f000 rw-p 00004000 fd:0b 1996918                        /data/dalvik-cache/arm64/system@framework@org.apache.http.legacy.jar@classes.dex
+6ef70cc000-6ef70da000 r--p 00000000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
+6ef70da000-6ef711c000 r-xp 0000e000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
+6ef711c000-6ef711d000 r--p 00050000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
+6ef711d000-6ef711e000 rw-p 00000000 00:00 0                              [anon:.bss]
+6ef711e000-6ef7120000 rw-p 00000000 fd:0b 1911071                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.vdex
+6ef7120000-6ef7121000 r--p 00051000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
+6ef7121000-6ef7122000 rw-p 00052000 fd:0b 1938115                        /data/dalvik-cache/arm64/system@priv-app@RtMiCloudSDK@RtMiCloudSDK.apk@classes.dex
+6ef7147000-6ef7149000 r--p 00000000 fd:0b 1996885                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.dex
+6ef7149000-6ef7171000 rw-p 00000000 fd:0b 1996886                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.vdex
+6ef7171000-6ef7172000 r--p 00002000 fd:0b 1996885                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.dex
+6ef7172000-6ef7173000 rw-p 00003000 fd:0b 1996885                        /data/dalvik-cache/arm64/system@framework@gson.jar@classes.dex
+6ef719e000-6ef721d000 r--s 000a7000 fd:06 502                            /system/app/miui/miui.apk
+6ef721d000-6ef72b4000 r--s 00066000 fd:06 280                            /system/app/MiuiContentCatcher/MiuiContentCatcher.apk
+6ef72b4000-6ef7c24000 ---p 00000000 00:00 0
+6ef7c24000-6ef7c26000 rw-p 00000000 00:00 0
+6ef7c26000-6ef82b4000 ---p 00000000 00:00 0
+6ef82b4000-6ef82b5000 ---p 00000000 00:00 0
+6ef82b5000-6ef82b6000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15275]
+6ef82b6000-6ef83bd000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15275]
+6ef83bd000-6ef83be000 ---p 00000000 00:00 0
+6ef83be000-6ef84cb000 r--p 00000000 fd:06 1809                           /system/fonts/NotoSerifTibetan-VF.ttf
+6ef84cb000-6ef978a000 r--p 00000000 fd:06 1613                           /system/fonts/MiSansVF.ttf
+6ef978a000-6efaa49000 r--s 00000000 fd:06 1613                           /system/fonts/MiSansVF.ttf
+6efaa49000-6efb83a000 ---p 00000000 00:00 0
+6efb83a000-6efb83c000 rw-p 00000000 00:00 0
+6efb83c000-6efba49000 ---p 00000000 00:00 0
+6efba49000-6efc049000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+6efc049000-6efcfe2000 ---p 00000000 00:00 0
+6efcfe2000-6efcfe4000 rw-p 00000000 00:00 0
+6efcfe4000-6efd049000 ---p 00000000 00:00 0
+6efd049000-6efd04e000 r--p 00000000 fd:0b 1587502                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/oat/arm64/base.odex
+6efd04e000-6efd1fe000 rw-p 00000000 fd:0b 1581582                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/oat/arm64/base.vdex
+6efd1fe000-6efd1ff000 r--p 00005000 fd:0b 1587502                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/oat/arm64/base.odex
+6efd1ff000-6efd200000 rw-p 00006000 fd:0b 1587502                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/oat/arm64/base.odex
+6efd211000-6efd5fe000 ---p 00000000 00:00 0
+6efd5fe000-6efd600000 rw-p 00000000 00:00 0
+6efd600000-6efebec000 ---p 00000000 00:00 0
+6efebec000-6efebee000 rw-p 00000000 00:00 0
+6efebee000-6effe54000 ---p 00000000 00:00 0
+6effe54000-6effe56000 rw-p 00000000 00:00 0
+6effe56000-6f00ce6000 ---p 00000000 00:00 0
+6f00ce6000-6f00ce8000 rw-p 00000000 00:00 0
+6f00ce8000-6f01dde000 ---p 00000000 00:00 0
+6f01dde000-6f01de0000 rw-p 00000000 00:00 0
+6f01de0000-6f027a6000 ---p 00000000 00:00 0
+6f027a6000-6f027a8000 rw-p 00000000 00:00 0
+6f027a8000-6f039b4000 ---p 00000000 00:00 0
+6f039b4000-6f039b6000 rw-p 00000000 00:00 0
+6f039b6000-6f0448a000 ---p 00000000 00:00 0
+6f0448a000-6f0448c000 rw-p 00000000 00:00 0
+6f0448c000-6f05ce2000 ---p 00000000 00:00 0
+6f05ce2000-6f05ce4000 rw-p 00000000 00:00 0
+6f05ce4000-6f06efc000 ---p 00000000 00:00 0
+6f06efc000-6f06efe000 rw-p 00000000 00:00 0
+6f06efe000-6f07e24000 ---p 00000000 00:00 0
+6f07e24000-6f07e26000 rw-p 00000000 00:00 0
+6f07e26000-6f08211000 ---p 00000000 00:00 0
 6f08211000-6f48211000 ---p 00000000 00:00 0                              [anon:libwebview reservation]
 6f48211000-6f4838b000 r--p 00000000 fd:09 3851                           /vendor/lib64/libllvm-glnext.so
 6f4838b000-6f48f88000 r-xp 0017a000 fd:09 3851                           /vendor/lib64/libllvm-glnext.so
 6f48f88000-6f48fc3000 r--p 00d77000 fd:09 3851                           /vendor/lib64/libllvm-glnext.so
 6f48fc3000-6f48fcb000 rw-p 00db1000 fd:09 3851                           /vendor/lib64/libllvm-glnext.so
 6f48fcb000-6f48ffd000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f49000000-6f49c00000 ---p 00000000 00:00 0 
-6f49c08000-6f49c2c000 r--p 00000000 fd:06 1683                           /system/fonts/NotoSansKhmer-VF.ttf
-6f49c2c000-6f49c6a000 r--p 00000000 fd:06 1653                           /system/fonts/NotoSansDevanagari-VF.ttf
+6f49000000-6f49c00000 ---p 00000000 00:00 0
 6f49c6a000-6f49c6b000 r--p 00000000 fd:06 3368                           /system/lib64/libwebviewchromium_loader.so
 6f49c6b000-6f49c6c000 r-xp 00001000 fd:06 3368                           /system/lib64/libwebviewchromium_loader.so
 6f49c6c000-6f49c6d000 r--p 00002000 fd:06 3368                           /system/lib64/libwebviewchromium_loader.so
@@ -335,7 +286,6 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f49c8c000-6f49c9b000 r-xp 0000b000 fd:07 946                            /system_ext/lib64/vendor.qti.hardware.perf@2.0.so
 6f49c9b000-6f49c9d000 r--p 0001a000 fd:07 946                            /system_ext/lib64/vendor.qti.hardware.perf@2.0.so
 6f49c9d000-6f49c9e000 rw-p 0001b000 fd:07 946                            /system_ext/lib64/vendor.qti.hardware.perf@2.0.so
-6f49cb3000-6f49cd5000 r--p 00000000 fd:06 1699                           /system/fonts/NotoSansMalayalamUI-VF.ttf
 6f49cd5000-6f49cdf000 r--p 00000000 fd:07 942                            /system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 6f49cdf000-6f49ceb000 r-xp 0000a000 fd:07 942                            /system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 6f49ceb000-6f49ced000 r--p 00016000 fd:07 942                            /system_ext/lib64/vendor.qti.hardware.iop@2.0.so
@@ -345,26 +295,22 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f49d16000-6f49d17000 r--p 00010000 fd:07 821                            /system_ext/lib64/libqti-perfd-client_system.so
 6f49d17000-6f49d18000 rw-p 00010000 fd:07 821                            /system_ext/lib64/libqti-perfd-client_system.so
 6f49d18000-6f49d19000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f49d21000-6f49d43000 r--p 00000000 fd:06 1698                           /system/fonts/NotoSansMalayalam-VF.ttf
 6f49d43000-6f49d46000 r--p 00000000 fd:07 822                            /system_ext/lib64/libqti_performance.so
 6f49d46000-6f49d4a000 r-xp 00003000 fd:07 822                            /system_ext/lib64/libqti_performance.so
 6f49d4a000-6f49d4b000 r--p 00007000 fd:07 822                            /system_ext/lib64/libqti_performance.so
 6f49d4b000-6f49d4c000 rw-p 00007000 fd:07 822                            /system_ext/lib64/libqti_performance.so
-6f49d4e000-6f49d8b000 r--s 00039000 fd:0b 1652031                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/base.apk
 6f49d8b000-6f49e71000 r--p 00000000 fd:09 3516                           /vendor/lib64/egl/libGLESv2_adreno.so
 6f49e71000-6f4a19f000 r-xp 000e6000 fd:09 3516                           /vendor/lib64/egl/libGLESv2_adreno.so
 6f4a19f000-6f4a1a9000 r--p 00414000 fd:09 3516                           /vendor/lib64/egl/libGLESv2_adreno.so
 6f4a1a9000-6f4a1b2000 rw-p 0041d000 fd:09 3516                           /vendor/lib64/egl/libGLESv2_adreno.so
 6f4a1b2000-6f4a1ce000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f4a1e0000-6f4a200000 r--s 00000000 00:11 2339                           /dev/__properties__/u:object_r:graphics_config_prop:s0
-6f4a200000-6f4c400000 ---p 00000000 00:00 0 
-6f4c414000-6f4c474000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4a200000-6f4c400000 ---p 00000000 00:00 0
 6f4c474000-6f4c530000 r--p 00000000 fd:09 3815                           /vendor/lib64/libgsl.so
 6f4c530000-6f4c67c000 r-xp 000bc000 fd:09 3815                           /vendor/lib64/libgsl.so
 6f4c67c000-6f4c67d000 r--p 00208000 fd:09 3815                           /vendor/lib64/libgsl.so
 6f4c67d000-6f4c67e000 rw-p 00208000 fd:09 3815                           /vendor/lib64/libgsl.so
 6f4c67e000-6f4c680000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f4c69c000-6f4c6dc000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4c684000-6f4c6dc000 r--p 00000000 fd:06 1748                           /system/fonts/NotoSansSinhalaUI-VF.ttf
 6f4c6dc000-6f4c6e9000 r--p 00000000 fd:07 948                            /system_ext/lib64/vendor.qti.hardware.perf@2.2.so
 6f4c6e9000-6f4c6f8000 r-xp 0000d000 fd:07 948                            /system_ext/lib64/vendor.qti.hardware.perf@2.2.so
 6f4c6f8000-6f4c6fb000 r--p 0001c000 fd:07 948                            /system_ext/lib64/vendor.qti.hardware.perf@2.2.so
@@ -373,7 +319,6 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f4c716000-6f4c725000 r-xp 0000e000 fd:07 949                            /system_ext/lib64/vendor.qti.hardware.perf@2.3.so
 6f4c725000-6f4c728000 r--p 0001d000 fd:07 949                            /system_ext/lib64/vendor.qti.hardware.perf@2.3.so
 6f4c728000-6f4c729000 rw-p 0001f000 fd:07 949                            /system_ext/lib64/vendor.qti.hardware.perf@2.3.so
-6f4c72b000-6f4c74b000 r--s 00000000 00:11 2239                           /dev/__properties__/u:object_r:binder_cache_system_server_prop:s0
 6f4c74b000-6f4c75b000 r--p 00000000 fd:07 947                            /system_ext/lib64/vendor.qti.hardware.perf@2.1.so
 6f4c75b000-6f4c76f000 r-xp 00010000 fd:07 947                            /system_ext/lib64/vendor.qti.hardware.perf@2.1.so
 6f4c76f000-6f4c773000 r--p 00024000 fd:07 947                            /system_ext/lib64/vendor.qti.hardware.perf@2.1.so
@@ -386,8 +331,8 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f4c7d4000-6f4c7de000 r-xp 00006000 fd:09 3513                           /vendor/lib64/egl/eglSubDriverAndroid.so
 6f4c7de000-6f4c7e0000 r--p 00010000 fd:09 3513                           /vendor/lib64/egl/eglSubDriverAndroid.so
 6f4c7e0000-6f4c7e1000 rw-p 00011000 fd:09 3513                           /vendor/lib64/egl/eglSubDriverAndroid.so
-6f4c800000-6f4fc00000 ---p 00000000 00:00 0 
-6f4fc15000-6f4fc55000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4c800000-6f4fc00000 ---p 00000000 00:00 0
+6f4fc15000-6f4fc55000 rw-s 00021000 00:11 2737                           /dev/kgsl-3d0
 6f4fc55000-6f4fc65000 r--p 00000000 fd:09 4266                           /vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
 6f4fc65000-6f4fc74000 r-xp 00010000 fd:09 4266                           /vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
 6f4fc74000-6f4fc77000 r--p 0001f000 fd:09 4266                           /vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
@@ -397,23 +342,23 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f4fcbb000-6f4fcbc000 r--p 00038000 fd:09 3515                           /vendor/lib64/egl/libGLESv1_CM_adreno.so
 6f4fcbc000-6f4fcbd000 rw-p 00038000 fd:09 3515                           /vendor/lib64/egl/libGLESv1_CM_adreno.so
 6f4fcbd000-6f4fcbe000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f4fcc4000-6f4fce4000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4fcc4000-6f4fce4000 rw-s 0002e000 00:11 2737                           /dev/kgsl-3d0
 6f4fce4000-6f4fce9000 r--p 00000000 fd:09 3514                           /vendor/lib64/egl/libEGL_adreno.so
 6f4fce9000-6f4fced000 r-xp 00005000 fd:09 3514                           /vendor/lib64/egl/libEGL_adreno.so
 6f4fced000-6f4fcee000 r--p 00009000 fd:09 3514                           /vendor/lib64/egl/libEGL_adreno.so
 6f4fcee000-6f4fcef000 rw-p 00009000 fd:09 3514                           /vendor/lib64/egl/libEGL_adreno.so
-6f4fd00000-6f4fd20000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4fd00000-6f4fd20000 rw-s 0001b000 00:11 2737                           /dev/kgsl-3d0
 6f4fd20000-6f4fd27000 r--p 00000000 07:48 594                            /apex/com.android.vndk.v30/lib64/libz.so
 6f4fd27000-6f4fd35000 r-xp 00007000 07:48 594                            /apex/com.android.vndk.v30/lib64/libz.so
 6f4fd35000-6f4fd36000 r--p 00015000 07:48 594                            /apex/com.android.vndk.v30/lib64/libz.so
 6f4fd36000-6f4fd37000 rw-p 00015000 07:48 594                            /apex/com.android.vndk.v30/lib64/libz.so
-6f4fd3a000-6f4fd5a000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4fd3a000-6f4fd5a000 rw-s 00019000 00:11 2737                           /dev/kgsl-3d0
 6f4fd5a000-6f4fd61000 r--p 00000000 fd:09 3657                           /vendor/lib64/libadreno_utils.so
 6f4fd61000-6f4fd6d000 r-xp 00007000 fd:09 3657                           /vendor/lib64/libadreno_utils.so
 6f4fd6d000-6f4fd6e000 r--p 00013000 fd:09 3657                           /vendor/lib64/libadreno_utils.so
 6f4fd6e000-6f4fd6f000 rw-p 00013000 fd:09 3657                           /vendor/lib64/libadreno_utils.so
 6f4fd6f000-6f4fd71000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f4fd76000-6f4fd96000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4fd76000-6f4fd96000 r--s 00000000 00:11 2509                           /dev/__properties__/u:object_r:vendor_gralloc_prop:s0
 6f4fd96000-6f4fda0000 r--p 00000000 fd:09 3536                           /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
 6f4fda0000-6f4fda8000 r-xp 0000a000 fd:09 3536                           /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
 6f4fda8000-6f4fdaa000 r--p 00012000 fd:09 3536                           /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
@@ -422,7 +367,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f4fdd4000-6f4fde4000 r-xp 00011000 fd:09 4268                           /vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so
 6f4fde4000-6f4fde7000 r--p 00021000 fd:09 4268                           /vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so
 6f4fde7000-6f4fde8000 rw-p 00023000 fd:09 4268                           /vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so
-6f4fdeb000-6f4fe0b000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f4fdeb000-6f4fe0b000 r--s 00000000 00:11 2347                           /dev/__properties__/u:object_r:hwservicemanager_prop:s0
 6f4fe0b000-6f4fe16000 r--p 00000000 07:48 407                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@3.0.so
 6f4fe16000-6f4fe20000 r-xp 0000b000 07:48 407                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@3.0.so
 6f4fe20000-6f4fe22000 r--p 00015000 07:48 407                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@3.0.so
@@ -497,7 +442,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f502ce000-6f502d1000 r-xp 00003000 fd:09 3982                           /vendor/lib64/libqdMetaData.so
 6f502d1000-6f502d2000 r--p 00006000 fd:09 3982                           /vendor/lib64/libqdMetaData.so
 6f502d2000-6f502d3000 rw-p 00006000 fd:09 3982                           /vendor/lib64/libqdMetaData.so
-6f502ed000-6f5032d000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f502d5000-6f5032d000 r--p 00000000 fd:06 1747                           /system/fonts/NotoSansSinhala-VF.ttf
 6f5032d000-6f5032e000 r--p 00000000 07:48 553                            /apex/com.android.vndk.v30/lib64/libion.so
 6f5032e000-6f5032f000 r-xp 00001000 07:48 553                            /apex/com.android.vndk.v30/lib64/libion.so
 6f5032f000-6f50330000 r--p 00002000 07:48 553                            /apex/com.android.vndk.v30/lib64/libion.so
@@ -518,12 +463,12 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f5041a000-6f5041c000 r-xp 00002000 07:48 397                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.common-V1-ndk_platform.so
 6f5041c000-6f5041d000 r--p 00004000 07:48 397                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.common-V1-ndk_platform.so
 6f5041d000-6f5041e000 rw-p 00004000 07:48 397                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.common-V1-ndk_platform.so
-6f50431000-6f50471000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f50432000-6f50471000 r--p 00000000 fd:06 4837                           /system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
 6f50471000-6f50472000 r--p 00000000 07:48 369                            /apex/com.android.vndk.v30/lib64/android.hardware.common-V1-ndk_platform.so
 6f50472000-6f50473000 r-xp 00001000 07:48 369                            /apex/com.android.vndk.v30/lib64/android.hardware.common-V1-ndk_platform.so
 6f50473000-6f50474000 r--p 00002000 07:48 369                            /apex/com.android.vndk.v30/lib64/android.hardware.common-V1-ndk_platform.so
 6f50474000-6f50475000 rw-p 00002000 07:48 369                            /apex/com.android.vndk.v30/lib64/android.hardware.common-V1-ndk_platform.so
-6f50492000-6f504b2000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f50488000-6f504b2000 r--s 002b7000 fd:06 502                            /system/app/miui/miui.apk
 6f504b2000-6f504b3000 r--p 00000000 fd:09 3830                           /vendor/lib64/libhwbinder.so
 6f504b3000-6f504b4000 r-xp 00001000 fd:09 3830                           /vendor/lib64/libhwbinder.so
 6f504b4000-6f504b5000 r--p 00002000 fd:09 3830                           /vendor/lib64/libhwbinder.so
@@ -531,12 +476,12 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f504d6000-6f504e3000 r-xp 0000f000 07:48 589                            /apex/com.android.vndk.v30/lib64/libutils.so
 6f504e3000-6f504e4000 r--p 0001c000 07:48 589                            /apex/com.android.vndk.v30/lib64/libutils.so
 6f504e4000-6f504e5000 rw-p 0001c000 07:48 589                            /apex/com.android.vndk.v30/lib64/libutils.so
-6f504f3000-6f50513000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f504ec000-6f50513000 r--s 002c0000 fd:06 280                            /system/app/MiuiContentCatcher/MiuiContentCatcher.apk
 6f50513000-6f5051e000 r--p 00000000 07:48 406                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@2.1.so
 6f5051e000-6f50527000 r-xp 0000b000 07:48 406                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@2.1.so
 6f50527000-6f50529000 r--p 00014000 07:48 406                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@2.1.so
 6f50529000-6f5052a000 rw-p 00015000 07:48 406                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.mapper@2.1.so
-6f50539000-6f50579000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f50536000-6f50579000 r--p 00000000 fd:06 1767                           /system/fonts/NotoSansTeluguUI-VF.ttf
 6f50579000-6f5057a000 r--p 00000000 07:48 400                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.common@1.2.so
 6f5057a000-6f5057b000 r-xp 00001000 07:48 400                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.common@1.2.so
 6f5057b000-6f5057c000 r--p 00002000 07:48 400                            /apex/com.android.vndk.v30/lib64/android.hardware.graphics.common@1.2.so
@@ -549,7 +494,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f5104a000-6f51054000 r-xp 00006000 fd:06 3255                           /system/lib64/librs_jni.so
 6f51054000-6f51056000 r--p 00010000 fd:06 3255                           /system/lib64/librs_jni.so
 6f51056000-6f51057000 rw-p 00011000 fd:06 3255                           /system/lib64/librs_jni.so
-6f51066000-6f51086000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f51058000-6f51086000 r--p 00000000 fd:06 1680                           /system/fonts/NotoSansKannadaUI-VF.ttf
 6f51086000-6f51093000 r--p 00000000 fd:06 3256                           /system/lib64/librtp_jni.so
 6f51093000-6f510b9000 r-xp 0000d000 fd:06 3256                           /system/lib64/librtp_jni.so
 6f510b9000-6f510bb000 r--p 00033000 fd:06 3256                           /system/lib64/librtp_jni.so
@@ -559,7 +504,8 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f512f0000-6f512fb000 r--p 00221000 fd:06 3238                           /system/lib64/libprotobuf-cpp-full.so
 6f512fb000-6f512fc000 rw-p 0022b000 fd:06 3238                           /system/lib64/libprotobuf-cpp-full.so
 6f512fc000-6f512fd000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f5130b000-6f5136b000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f51303000-6f51327000 r--p 00000000 fd:06 1683                           /system/fonts/NotoSansKhmer-VF.ttf
+6f51327000-6f5136b000 r--p 00000000 fd:06 1766                           /system/fonts/NotoSansTelugu-VF.ttf
 6f5136b000-6f51375000 r--p 00000000 fd:06 3298                           /system/lib64/libstagefright_amrnb_common.so
 6f51375000-6f5137e000 r-xp 0000a000 fd:06 3298                           /system/lib64/libstagefright_amrnb_common.so
 6f5137e000-6f5137f000 r--p 00013000 fd:06 3298                           /system/lib64/libstagefright_amrnb_common.so
@@ -567,13 +513,13 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f51390000-6f51392000 r-xp 00002000 fd:15 26                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
 6f51392000-6f51393000 r--p 00004000 fd:15 26                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
 6f51393000-6f51394000 rw-p 00004000 fd:15 26                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
-6f513b2000-6f513d2000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f51395000-6f513d2000 r--p 00000000 fd:06 1637                           /system/fonts/NotoSansBengaliUI-VF.ttf
 6f513d2000-6f513d7000 r--p 00000000 fd:06 2863                           /system/lib64/libaudioeffect_jni.so
 6f513d7000-6f513de000 r-xp 00005000 fd:06 2863                           /system/lib64/libaudioeffect_jni.so
 6f513de000-6f513df000 r--p 0000c000 fd:06 2863                           /system/lib64/libaudioeffect_jni.so
 6f513df000-6f513e0000 rw-p 0000c000 fd:06 2863                           /system/lib64/libaudioeffect_jni.so
 6f513e0000-6f51400000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6f51400000-6f53600000 ---p 00000000 00:00 0 
+6f51400000-6f53600000 ---p 00000000 00:00 0
 6f5360a000-6f53658000 r--s 00000000 fd:06 4910                           /system/usr/hyphen-data/hyph-hu.hyb
 6f53658000-6f53691000 r--p 00000000 fd:06 3131                           /system/lib64/libmedia_jni.so
 6f53691000-6f536ea000 r-xp 00039000 fd:06 3131                           /system/lib64/libmedia_jni.so
@@ -587,7 +533,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f5375a000-6f5375d000 r--p 00000000 fd:06 3136                           /system/lib64/libmediadrmmetrics_consumer.so
 6f5375d000-6f53760000 r-xp 00003000 fd:06 3136                           /system/lib64/libmediadrmmetrics_consumer.so
 6f53760000-6f53761000 r--p 00006000 fd:06 3136                           /system/lib64/libmediadrmmetrics_consumer.so
-6f53779000-6f53799000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f53765000-6f53799000 r--p 00000000 fd:06 1679                           /system/fonts/NotoSansKannada-VF.ttf
 6f53799000-6f537a9000 r--p 00000000 fd:06 3137                           /system/lib64/libmediadrmmetrics_full.so
 6f537a9000-6f537ba000 r-xp 00010000 fd:06 3137                           /system/lib64/libmediadrmmetrics_full.so
 6f537ba000-6f537bc000 r--p 00021000 fd:06 3137                           /system/lib64/libmediadrmmetrics_full.so
@@ -645,85 +591,91 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f56c24000-6f56c28000 rw-p 00000000 00:00 0                              [anon:.bss]
 6f56c2f000-6f56c4f000 r--s 00000000 00:11 2363                           /dev/__properties__/u:object_r:log_prop:s0
 6f56c4f000-6f584e2000 r--s 00000000 07:28 16                             /apex/com.android.i18n/etc/icu/icudt68l.dat
-6f584ef000-6f5866f000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6f5866f000-6f587ab000 r-xp 00000000 fd:0b 1720015                        /data/user/0/com.bytedance.raphael.demo/code_cache/startup_agents/4cead168-agent.so
-6f587ab000-6f587ba000 ---p 00000000 00:00 0 
-6f587ba000-6f587c3000 r--p 0013b000 fd:0b 1720015                        /data/user/0/com.bytedance.raphael.demo/code_cache/startup_agents/4cead168-agent.so
-6f587c3000-6f587f7000 rw-p 00144000 fd:0b 1720015                        /data/user/0/com.bytedance.raphael.demo/code_cache/startup_agents/4cead168-agent.so
-6f587f7000-6f587f9000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f58800000-6f594a4000 ---p 00000000 00:00 0 
-6f594a4000-6f594a6000 rw-p 00000000 00:00 0 
-6f594a6000-6f59e90000 ---p 00000000 00:00 0 
-6f59e90000-6f59e92000 rw-p 00000000 00:00 0 
-6f59e92000-6f5aa58000 ---p 00000000 00:00 0 
-6f5aa58000-6f5aa5a000 rw-p 00000000 00:00 0 
-6f5aa5a000-6f5b89c000 ---p 00000000 00:00 0 
-6f5b89c000-6f5b89e000 rw-p 00000000 00:00 0 
-6f5b89e000-6f5c800000 ---p 00000000 00:00 0 
+6f584ee000-6f584ef000 ---p 00000000 00:00 0
+6f584ef000-6f584f0000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15272]
+6f584f0000-6f585eb000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15272]
+6f585eb000-6f585ed000 ---p 00000000 00:00 0
+6f585ed000-6f585ee000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15270]
+6f585ee000-6f586f5000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15270]
+6f586f5000-6f586f6000 ---p 00000000 00:00 0
+6f58715000-6f58752000 r--p 00000000 fd:06 1636                           /system/fonts/NotoSansBengali-VF.ttf
+6f58752000-6f58774000 r--p 00000000 fd:06 1699                           /system/fonts/NotoSansMalayalamUI-VF.ttf
+6f58774000-6f58796000 r--p 00000000 fd:06 1698                           /system/fonts/NotoSansMalayalam-VF.ttf
+6f58796000-6f587d0000 r-xp 00000000 fd:0b 1631563                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/lib/arm64/libraphael.so
+6f587d0000-6f587d1000 ---p 00000000 00:00 0
+6f587d1000-6f587d5000 r--p 0003a000 fd:0b 1631563                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/lib/arm64/libraphael.so
+6f587d5000-6f587d6000 rw-p 0003e000 fd:0b 1631563                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/lib/arm64/libraphael.so
+6f587d6000-6f587e3000 rwxp 00000000 00:00 0                              [anon:.bss]
+6f58800000-6f591d8000 ---p 00000000 00:00 0
+6f591d8000-6f591da000 rw-p 00000000 00:00 0
+6f591da000-6f5a6c0000 ---p 00000000 00:00 0
+6f5a6c0000-6f5a6c2000 rw-p 00000000 00:00 0
+6f5a6c2000-6f5a846000 ---p 00000000 00:00 0
+6f5a846000-6f5a848000 rw-p 00000000 00:00 0
+6f5a848000-6f5be8e000 ---p 00000000 00:00 0
+6f5be8e000-6f5be90000 rw-p 00000000 00:00 0
+6f5be90000-6f5c800000 ---p 00000000 00:00 0
 6f5c800000-6f5cc00000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
-6f5cc0a000-6f5cc8a000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6f5cc8a000-6f5ccc0000 r--p 00000000 fd:12 129                            /apex/com.android.art/lib64/libopenjdkjvmti.so
-6f5ccc0000-6f5cd7a000 r-xp 00036000 fd:12 129                            /apex/com.android.art/lib64/libopenjdkjvmti.so
-6f5cd7a000-6f5cd7d000 r--p 000f0000 fd:12 129                            /apex/com.android.art/lib64/libopenjdkjvmti.so
-6f5cd7d000-6f5cd7e000 rw-p 000f2000 fd:12 129                            /apex/com.android.art/lib64/libopenjdkjvmti.so
-6f5cd8c000-6f5cdac000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6f5cdac000-6f5cdbf000 r--p 00000000 fd:12 106                            /apex/com.android.art/lib64/libart-dexlayout.so
-6f5cdbf000-6f5cdfc000 r-xp 00013000 fd:12 106                            /apex/com.android.art/lib64/libart-dexlayout.so
-6f5cdfc000-6f5cdfe000 r--p 00050000 fd:12 106                            /apex/com.android.art/lib64/libart-dexlayout.so
-6f5cdfe000-6f5cdff000 rw-p 00051000 fd:12 106                            /apex/com.android.art/lib64/libart-dexlayout.so
-6f5cdff000-6f5ce00000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f5ce06000-6f5ce07000 ---p 00000000 00:00 0 
-6f5ce07000-6f5ce08000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28588]
-6f5ce08000-6f5cf03000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28588]
-6f5cf03000-6f5cf05000 ---p 00000000 00:00 0 
-6f5cf05000-6f5cf06000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28587]
-6f5cf06000-6f5d001000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28587]
-6f5d001000-6f5d003000 ---p 00000000 00:00 0 
-6f5d003000-6f5d004000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28585]
-6f5d004000-6f5d0ff000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28585]
-6f5d0ff000-6f5d101000 ---p 00000000 00:00 0 
-6f5d101000-6f5d102000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28584]
-6f5d102000-6f5d1fd000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28584]
-6f5d1fd000-6f5d1fe000 ---p 00000000 00:00 0 
-6f5d1fe000-6f5d2fc000 r--p 00000000 00:1d 4                              /dev/binderfs/binder
-6f5d2fc000-6f5d2fd000 ---p 00000000 00:00 0 
-6f5d2fd000-6f5d2fe000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28583]
-6f5d2fe000-6f5d405000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28583]
-6f5d405000-6f5d407000 ---p 00000000 00:00 0 
-6f5d407000-6f5d408000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28582]
-6f5d408000-6f5d50f000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28582]
-6f5d50f000-6f5d511000 ---p 00000000 00:00 0 
-6f5d511000-6f5d512000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28581]
-6f5d512000-6f5d619000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28581]
-6f5d619000-6f5d61b000 ---p 00000000 00:00 0 
-6f5d61b000-6f5d61c000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28580]
-6f5d61c000-6f5d723000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28580]
-6f5d723000-6f5d725000 ---p 00000000 00:00 0 
-6f5d725000-6f5d726000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28579]
-6f5d726000-6f5d829000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28579]
-6f5d829000-6f5d82b000 ---p 00000000 00:00 0 
-6f5d82b000-6f5d82c000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28578]
-6f5d82c000-6f5d927000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28578]
-6f5d927000-6f5d929000 ---p 00000000 00:00 0 
-6f5d929000-6f5d92a000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28577]
-6f5d92a000-6f5da25000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28577]
-6f5da25000-6f5da27000 ---p 00000000 00:00 0 
-6f5da27000-6f5da28000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28576]
-6f5da28000-6f5db23000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28576]
-6f5db23000-6f5db24000 ---p 00000000 00:00 0 
-6f5db24000-6f61b24000 rw-s 00000000 00:01 93540971                       /memfd:jit-cache (deleted)
-6f61b24000-6f61b26000 r--p 00000000 fd:07 835                            /system_ext/lib64/libskewknob_system.so
-6f61b26000-6f61b2b000 r-xp 00002000 fd:07 835                            /system_ext/lib64/libskewknob_system.so
-6f61b2b000-6f61b2c000 r--p 00007000 fd:07 835                            /system_ext/lib64/libskewknob_system.so
-6f61b49000-6f61b69000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6f61b69000-6f61b89000 r--s 00000000 00:11 2449                           /dev/__properties__/u:object_r:use_memfd_prop:s0
-6f61b89000-6f61c00000 r--p 00000000 00:00 0                              [anon:dalvik-classes.dex extracted in memory from /data/data/com.bytedance.raphael.demo/code_cache/.studio/instruments-962d6e1a.jar]
+6f5cc16000-6f5cc53000 r--p 00000000 fd:06 1654                           /system/fonts/NotoSansDevanagariUI-VF.ttf
+6f5cc53000-6f5cc91000 r--p 00000000 fd:06 1653                           /system/fonts/NotoSansDevanagari-VF.ttf
+6f5cc91000-6f5cc92000 r--p 00000000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
+6f5cc92000-6f5cc93000 r-xp 00001000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
+6f5cc93000-6f5cc94000 r--p 00002000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
+6f5cc94000-6f5cc95000 rw-p 00002000 fd:07 764                            /system_ext/lib64/libforcedarkimpl.so
+6f5cca0000-6f5cd0e000 r--p 00000000 fd:06 1657                           /system/fonts/NotoSansEthiopic-VF.ttf
+6f5cd0e000-6f5cd2e000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f5cd2e000-6f5cd6b000 r--s 0001b000 fd:0b 1650405                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/base.apk
+6f5cd6b000-6f5cd6c000 ---p 00000000 00:00 0
+6f5cd6c000-6f5cd6d000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15271]
+6f5cd6d000-6f5ce68000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15271]
+6f5ce68000-6f5ce6a000 ---p 00000000 00:00 0
+6f5ce6a000-6f5ce6b000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15266]
+6f5ce6b000-6f5cf66000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15266]
+6f5cf66000-6f5cf67000 ---p 00000000 00:00 0
+6f5cf67000-6f5d0f9000 r--s 00000000 00:01 47191                          /dev/ashmem/fontMap (deleted)
+6f5d0f9000-6f5d0fa000 ---p 00000000 00:00 0
+6f5d0fa000-6f5d0fb000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15262]
+6f5d0fb000-6f5d1f6000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15262]
+6f5d1f6000-6f5d1f8000 ---p 00000000 00:00 0
+6f5d1f8000-6f5d1f9000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15260]
+6f5d1f9000-6f5d2f4000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15260]
+6f5d2f4000-6f5d2f5000 ---p 00000000 00:00 0
+6f5d2f5000-6f5d3f3000 r--p 00000000 00:1d 4                              /dev/binderfs/binder
+6f5d3f3000-6f5d3f4000 ---p 00000000 00:00 0
+6f5d3f4000-6f5d3f5000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15259]
+6f5d3f5000-6f5d4fc000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15259]
+6f5d4fc000-6f5d4fe000 ---p 00000000 00:00 0
+6f5d4fe000-6f5d4ff000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15258]
+6f5d4ff000-6f5d606000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15258]
+6f5d606000-6f5d608000 ---p 00000000 00:00 0
+6f5d608000-6f5d609000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15257]
+6f5d609000-6f5d710000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15257]
+6f5d710000-6f5d712000 ---p 00000000 00:00 0
+6f5d712000-6f5d713000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15256]
+6f5d713000-6f5d81a000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15256]
+6f5d81a000-6f5d81c000 ---p 00000000 00:00 0
+6f5d81c000-6f5d81d000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15255]
+6f5d81d000-6f5d920000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15255]
+6f5d920000-6f5d922000 ---p 00000000 00:00 0
+6f5d922000-6f5d923000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15254]
+6f5d923000-6f5da1e000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15254]
+6f5da1e000-6f5da20000 ---p 00000000 00:00 0
+6f5da20000-6f5da21000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15253]
+6f5da21000-6f5db1c000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15253]
+6f5db1c000-6f5db1d000 ---p 00000000 00:00 0
+6f5db1d000-6f61b1d000 rw-s 00000000 00:01 113414708                      /memfd:jit-cache (deleted)
+6f61b1d000-6f61b1f000 r--p 00000000 fd:07 835                            /system_ext/lib64/libskewknob_system.so
+6f61b1f000-6f61b24000 r-xp 00002000 fd:07 835                            /system_ext/lib64/libskewknob_system.so
+6f61b24000-6f61b25000 r--p 00007000 fd:07 835                            /system_ext/lib64/libskewknob_system.so
+6f61b40000-6f61b60000 r--s 00000000 00:11 2339                           /dev/__properties__/u:object_r:graphics_config_prop:s0
+6f61b60000-6f61be0000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+6f61be0000-6f61c00000 r--s 00000000 00:11 2239                           /dev/__properties__/u:object_r:binder_cache_system_server_prop:s0
 6f61c00000-6f61ccf000 r--p 00000000 fd:12 105                            /apex/com.android.art/lib64/libart-compiler.so
-6f61ccf000-6f61e00000 ---p 00000000 00:00 0 
+6f61ccf000-6f61e00000 ---p 00000000 00:00 0
 6f61e00000-6f6212e000 r-xp 00200000 fd:12 105                            /apex/com.android.art/lib64/libart-compiler.so
-6f6212e000-6f62200000 ---p 00000000 00:00 0 
+6f6212e000-6f62200000 ---p 00000000 00:00 0
 6f62200000-6f62217000 r--p 00600000 fd:12 105                            /apex/com.android.art/lib64/libart-compiler.so
-6f62217000-6f62416000 ---p 00000000 00:00 0 
+6f62217000-6f62416000 ---p 00000000 00:00 0
 6f62416000-6f62417000 rw-p 00616000 fd:12 105                            /apex/com.android.art/lib64/libart-compiler.so
 6f62417000-6f6241f000 rw-p 00000000 00:00 0                              [anon:.bss]
 6f62423000-6f6249c000 r--s 00000000 07:60 18                             /apex/com.android.tzdata/etc/tz/tzdata
@@ -734,7 +686,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f624d6000-6f624f6000 r--s 00000000 00:11 2371                           /dev/__properties__/u:object_r:media_variant_prop:s0
 6f624fd000-6f6251d000 r--s 00000000 00:11 2503                           /dev/__properties__/u:object_r:vendor_exported_system_prop:s0
 6f6251d000-6f62600000 rw-p 00000000 00:00 0                              [anon:dalvik-allocspace non moving space mark-bitmap 1]
-6f62600000-6f64a00000 ---p 00000000 00:00 0 
+6f62600000-6f64a00000 ---p 00000000 00:00 0
 6f64a16000-6f64a61000 r--p 00000000 fd:06 1812                           /system/fonts/RobotoStatic-Regular.ttf
 6f64a64000-6f64a84000 r--s 00000000 00:11 2360                           /dev/__properties__/u:object_r:lmkd_config_prop:s0
 6f64a84000-6f64b67000 rw-p 00000000 00:00 0                              [anon:dalvik-allocspace non moving space live-bitmap 1]
@@ -766,7 +718,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f64dd4000-6f64de4000 r--p 0011e000 fd:12 114                            /apex/com.android.art/lib64/libcrypto.so
 6f64de4000-6f64de5000 rw-p 0012d000 fd:12 114                            /apex/com.android.art/lib64/libcrypto.so
 6f64de5000-6f64deb000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f64e00000-6f66a00000 ---p 00000000 00:00 0 
+6f64e00000-6f66a00000 ---p 00000000 00:00 0
 6f66a06000-6f66a46000 rw-p 00000000 00:00 0                              [anon:dalvik-CompilerMetadata]
 6f66a46000-6f66ac4000 r--s 00313000 fd:06 1957                           /system/framework/framework-ext-res/framework-ext-res.apk
 6f66ac4000-6f68357000 r--s 00000000 07:28 16                             /apex/com.android.i18n/etc/icu/icudt68l.dat
@@ -784,7 +736,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f68467000-6f684ee000 r-xp 0005a000 fd:07 777                            /system_ext/lib64/liblistensoundmodel2.qti.so
 6f684ee000-6f684f1000 r--p 000e1000 fd:07 777                            /system_ext/lib64/liblistensoundmodel2.qti.so
 6f684f1000-6f685ff000 rw-p 000e3000 fd:07 777                            /system_ext/lib64/liblistensoundmodel2.qti.so
-6f68600000-6f6b000000 ---p 00000000 00:00 0 
+6f68600000-6f6b000000 ---p 00000000 00:00 0
 6f6b000000-6f6b052000 r--s 009b8000 fd:06 1959                           /system/framework/framework-res.apk
 6f6b052000-6f6b058000 r--p 00000000 fd:07 780                            /system_ext/lib64/liblsmclient.so
 6f6b058000-6f6b065000 r-xp 00006000 fd:07 780                            /system_ext/lib64/liblsmclient.so
@@ -821,7 +773,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f6b25a000-6f6b25c000 r--p 00000000 fd:06 2815                           /system/lib64/libOpenSLES.so
 6f6b25c000-6f6b25d000 r-xp 00002000 fd:06 2815                           /system/lib64/libOpenSLES.so
 6f6b25d000-6f6b25e000 r--p 00003000 fd:06 2815                           /system/lib64/libOpenSLES.so
-6f6b26e000-6f6b28e000 r--s 00000000 00:11 2351                           /dev/__properties__/u:object_r:init_service_status_prop:s0
+6f6b26e000-6f6b28e000 r--s 00000000 00:11 2449                           /dev/__properties__/u:object_r:use_memfd_prop:s0
 6f6b28e000-6f6b2ae000 r--s 00000000 00:11 2425                           /dev/__properties__/u:object_r:surfaceflinger_prop:s0
 6f6b2ae000-6f6b2b0000 r--p 00000000 fd:06 2814                           /system/lib64/libOpenMAXAL.so
 6f6b2b0000-6f6b2b1000 r-xp 00002000 fd:06 2814                           /system/lib64/libOpenMAXAL.so
@@ -913,11 +865,11 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f73dbe000-6f73f26000 r--p 00000000 fd:12 65                             /apex/com.android.art/javalib/bouncycastle.jar
 6f73f26000-6f74400000 r--p 00000000 fd:12 67                             /apex/com.android.art/javalib/core-oj.jar
 6f74400000-6f7454c000 r--p 00000000 fd:12 108                            /apex/com.android.art/lib64/libart.so
-6f7454c000-6f74600000 ---p 00000000 00:00 0 
+6f7454c000-6f74600000 ---p 00000000 00:00 0
 6f74600000-6f74bf6000 r-xp 00200000 fd:12 108                            /apex/com.android.art/lib64/libart.so
-6f74bf6000-6f74c00000 ---p 00000000 00:00 0 
+6f74bf6000-6f74c00000 ---p 00000000 00:00 0
 6f74c00000-6f74c13000 r--p 00800000 fd:12 108                            /apex/com.android.art/lib64/libart.so
-6f74c13000-6f74e12000 ---p 00000000 00:00 0 
+6f74c13000-6f74e12000 ---p 00000000 00:00 0
 6f74e12000-6f74e16000 rw-p 00812000 fd:12 108                            /apex/com.android.art/lib64/libart.so
 6f74e16000-6f74e1a000 rw-p 00000000 00:00 0                              [anon:.bss]
 6f74e38000-6f74ec1000 r--p 00000000 fd:06 1963                           /system/framework/ims-common.jar
@@ -934,7 +886,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f74ff0000-6f74ff2000 r--p 0003d000 fd:12 109                            /apex/com.android.art/lib64/libartbase.so
 6f74ff2000-6f74ff3000 rw-p 0003e000 fd:12 109                            /apex/com.android.art/lib64/libartbase.so
 6f74ff3000-6f74ff4000 rw-p 00000000 00:00 0                              [anon:.bss]
-6f75000000-6f75a00000 ---p 00000000 00:00 0 
+6f75000000-6f75a00000 ---p 00000000 00:00 0
 6f75a14000-6f75a34000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 6f75a34000-6f75a6f000 r--s 00000000 07:60 14                             /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
 6f75a6f000-6f75a72000 r--p 00000000 fd:06 3337                           /system/lib64/libtombstoned_client.so
@@ -983,7 +935,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6f75dd3000-6f75dd6000 r--p 00081000 fd:06 3305                           /system/lib64/libstagefright_httplive.so
 6f75dd6000-6f75dd8000 rw-p 00083000 fd:06 3305                           /system/lib64/libstagefright_httplive.so
 6f75de0000-6f75e00000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6f75e00000-6f76400000 ---p 00000000 00:00 0 
+6f75e00000-6f76400000 ---p 00000000 00:00 0
 6f76416000-6f76476000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 6f76476000-6f76478000 r--p 00000000 07:50 29                             /apex/com.android.os.statsd/lib64/libstatssocket.so
 6f76478000-6f7647a000 r-xp 00002000 07:50 29                             /apex/com.android.os.statsd/lib64/libstatssocket.so
@@ -1016,7 +968,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6ff6d81000-6ff6d82000 rw-p 0012d000 fd:06 2951                           /system/lib64/libcrypto.so
 6ff6d82000-6ff6d88000 rw-p 00000000 00:00 0                              [anon:.bss]
 6ff6d8f000-6ff6e00000 r--p 00000000 07:38 21                             /apex/com.android.conscrypt/javalib/conscrypt.jar
-6ff6e00000-6ff8e00000 ---p 00000000 00:00 0 
+6ff6e00000-6ff8e00000 ---p 00000000 00:00 0
 6ff8e03000-6ff8e43000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 6ff8e43000-6ff8e47000 r--p 00000000 fd:12 121                            /apex/com.android.art/lib64/liblz4.so
 6ff8e47000-6ff8e64000 r-xp 00004000 fd:12 121                            /apex/com.android.art/lib64/liblz4.so
@@ -1040,7 +992,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6ff8fe8000-6ff8fef000 r--p 000a6000 fd:06 2912                           /system/lib64/libc++.so
 6ff8fef000-6ff8ff0000 rw-p 000ac000 fd:06 2912                           /system/lib64/libc++.so
 6ff8ff0000-6ff8ff3000 rw-p 00000000 00:00 0                              [anon:.bss]
-6ff9000000-6ffbc00000 ---p 00000000 00:00 0 
+6ff9000000-6ffbc00000 ---p 00000000 00:00 0
 6ffbc07000-6ffbc47000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 6ffbc47000-6ffbc56000 r--p 00000000 fd:06 2694                           /system/lib64/android.hardware.graphics.mapper@4.0.so
 6ffbc56000-6ffbc68000 r-xp 0000f000 fd:06 2694                           /system/lib64/android.hardware.graphics.mapper@4.0.so
@@ -1068,11 +1020,11 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6ffbdd5000-6ffbdd6000 rw-p 00013000 fd:06 2715                           /system/lib64/android.hardware.memtrack@1.0.so
 6ffbde0000-6ffbe00000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 6ffbe00000-6ffbf4c000 r--p 00000000 fd:06 3056                           /system/lib64/libhwui.so
-6ffbf4c000-6ffc000000 ---p 00000000 00:00 0 
+6ffbf4c000-6ffc000000 ---p 00000000 00:00 0
 6ffc000000-6ffc5e5000 r-xp 00200000 fd:06 3056                           /system/lib64/libhwui.so
-6ffc5e5000-6ffc600000 ---p 00000000 00:00 0 
+6ffc5e5000-6ffc600000 ---p 00000000 00:00 0
 6ffc600000-6ffc627000 r--p 00800000 fd:06 3056                           /system/lib64/libhwui.so
-6ffc627000-6ffc826000 ---p 00000000 00:00 0 
+6ffc627000-6ffc826000 ---p 00000000 00:00 0
 6ffc826000-6ffc82f000 rw-p 00826000 fd:06 3056                           /system/lib64/libhwui.so
 6ffc82f000-6ffc835000 rw-p 00000000 00:00 0                              [anon:.bss]
 6ffc844000-6ffc884000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
@@ -1091,7 +1043,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6ffc9d5000-6ffc9d6000 r--p 00045000 fd:06 2821                           /system/lib64/libRScpp.so
 6ffc9d6000-6ffc9d7000 rw-p 00045000 fd:06 2821                           /system/lib64/libRScpp.so
 6ffc9e0000-6ffca00000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6ffca00000-6ffe000000 ---p 00000000 00:00 0 
+6ffca00000-6ffe000000 ---p 00000000 00:00 0
 6ffe009000-6ffe06f000 r--p 00000000 fd:15 20                             /apex/com.android.tethering/javalib/framework-connectivity.jar
 6ffe06f000-6ffe070000 r--p 00000000 fd:06 3363                           /system/lib64/libvndksupport.so
 6ffe070000-6ffe071000 r-xp 00001000 fd:06 3363                           /system/lib64/libvndksupport.so
@@ -1226,7 +1178,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 6ffebd3000-6ffebd4000 rw-p 0008e000 fd:06 3355                           /system/lib64/libvintf.so
 6ffebd4000-6ffebd6000 rw-p 00000000 00:00 0                              [anon:.bss]
 6ffebe0000-6ffec00000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-6ffec00000-7001e00000 ---p 00000000 00:00 0 
+6ffec00000-7001e00000 ---p 00000000 00:00 0
 7001e15000-7001e55000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7001e55000-7001e98000 r--p 00000000 fd:06 2861                           /system/lib64/libaudioclient.so
 7001e98000-7001f17000 r-xp 00043000 fd:06 2861                           /system/lib64/libaudioclient.so
@@ -1243,7 +1195,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 70021c7000-70021c8000 rw-p 001c2000 07:28 34                             /apex/com.android.i18n/lib64/libicuuc.so
 70021c8000-70021ca000 rw-p 00000000 00:00 0                              [anon:.bss]
 70021e0000-7002200000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-7002200000-7002400000 ---p 00000000 00:00 0 
+7002200000-7002400000 ---p 00000000 00:00 0
 7002406000-7002446000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7002446000-7002449000 r--p 00000000 fd:06 3045                           /system/lib64/libhardware_legacy.so
 7002449000-700244c000 r-xp 00003000 fd:06 3045                           /system/lib64/libhardware_legacy.so
@@ -1326,7 +1278,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7002bd9000-7002bf9000 r-xp 00018000 fd:06 3135                           /system/lib64/libmediadrm.so
 7002bf9000-7002bfc000 r--p 00038000 fd:06 3135                           /system/lib64/libmediadrm.so
 7002bfc000-7002bfd000 rw-p 0003a000 fd:06 3135                           /system/lib64/libmediadrm.so
-7002c00000-7003e00000 ---p 00000000 00:00 0 
+7002c00000-7003e00000 ---p 00000000 00:00 0
 7003e01000-7003e41000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7003e41000-7003e56000 r--p 00000000 fd:06 2711                           /system/lib64/android.hardware.media.c2@1.2.so
 7003e56000-7003e76000 r-xp 00015000 fd:06 2711                           /system/lib64/android.hardware.media.c2@1.2.so
@@ -1382,7 +1334,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 70041ee000-70041ef000 r--p 00000000 fd:06 3281                           /system/lib64/libshmemutil.so
 70041ef000-70041f1000 r-xp 00001000 fd:06 3281                           /system/lib64/libshmemutil.so
 70041f1000-70041f2000 r--p 00003000 fd:06 3281                           /system/lib64/libshmemutil.so
-7004200000-7005200000 ---p 00000000 00:00 0 
+7004200000-7005200000 ---p 00000000 00:00 0
 700521b000-700525b000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700525b000-700525d000 r--p 00000000 fd:06 3307                           /system/lib64/libstagefright_omx_utils.so
 700525d000-700525f000 r-xp 00002000 fd:06 3307                           /system/lib64/libstagefright_omx_utils.so
@@ -1436,7 +1388,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 70057da000-70057e0000 r-xp 00008000 fd:06 3223                           /system/lib64/libpermission.so
 70057e0000-70057e3000 r--p 0000e000 fd:06 3223                           /system/lib64/libpermission.so
 70057e3000-70057e4000 rw-p 00010000 fd:06 3223                           /system/lib64/libpermission.so
-7005800000-7006800000 ---p 00000000 00:00 0 
+7005800000-7006800000 ---p 00000000 00:00 0
 7006800000-700681e000 r--s 00000000 fd:06 4888                           /system/usr/hyphen-data/hyph-de-ch-1901.hyb
 700681e000-700685e000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700685e000-7006875000 r--p 00000000 fd:06 2654                           /system/lib64/android.hardware.cas@1.0.so
@@ -1477,21 +1429,21 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7006b2d000-7006b2e000 r--p 00000000 fd:06 2806                           /system/lib64/libETC1.so
 7006b2e000-7006b30000 r-xp 00001000 fd:06 2806                           /system/lib64/libETC1.so
 7006b30000-7006b31000 r--p 00003000 fd:06 2806                           /system/lib64/libETC1.so
-7006b3d000-7006b3e000 ---p 00000000 00:00 0 
-7006b3e000-7006b46000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 7006b46000-7006b66000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006b66000-7006b70000 r--p 00000000 fd:06 2893                           /system/lib64/libbinder_ndk.so
 7006b70000-7006b79000 r-xp 0000a000 fd:06 2893                           /system/lib64/libbinder_ndk.so
 7006b79000-7006b7a000 r--p 00013000 fd:06 2893                           /system/lib64/libbinder_ndk.so
 7006b7a000-7006b7b000 rw-p 00013000 fd:06 2893                           /system/lib64/libbinder_ndk.so
 7006b7b000-7006b7c000 rw-p 00000000 00:00 0                              [anon:.bss]
-7006b7c000-7006b84000 rw-s 00000000 00:09 93540999                       /dmabuf:
 7006b84000-7006b91000 r--p 00000000 fd:06 2939                           /system/lib64/libcodec2_client.so
 7006b91000-7006bac000 r-xp 0000d000 fd:06 2939                           /system/lib64/libcodec2_client.so
 7006bac000-7006bae000 r--p 00028000 fd:06 2939                           /system/lib64/libcodec2_client.so
 7006bae000-7006baf000 rw-p 00029000 fd:06 2939                           /system/lib64/libcodec2_client.so
-7006bb2000-7006bb6000 rw-s 0002d000 00:11 2737                           /dev/kgsl-3d0
-7006bb6000-7006bc6000 rw-s 00016000 00:11 2737                           /dev/kgsl-3d0
+7006bb0000-7006bb1000 ---p 00000000 00:00 0
+7006bb1000-7006bb9000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7006bb9000-7006bbd000 rw-s 0002d000 00:11 2737                           /dev/kgsl-3d0
+7006bbd000-7006bbe000 ---p 00000000 00:00 0
+7006bbe000-7006bc6000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 7006bc6000-7006bd7000 r--p 00000000 fd:06 3220                           /system/lib64/libpdx_default_transport.so
 7006bd7000-7006beb000 r-xp 00011000 fd:06 3220                           /system/lib64/libpdx_default_transport.so
 7006beb000-7006bec000 r--p 00025000 fd:06 3220                           /system/lib64/libpdx_default_transport.so
@@ -1501,60 +1453,51 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7006c12000-7006c15000 r-xp 00004000 fd:06 3387                           /system/lib64/mediametricsservice-aidl-cpp.so
 7006c15000-7006c17000 r--p 00007000 fd:06 3387                           /system/lib64/mediametricsservice-aidl-cpp.so
 7006c17000-7006c18000 rw-p 00008000 fd:06 3387                           /system/lib64/mediametricsservice-aidl-cpp.so
-7006c19000-7006c21000 rw-s 00000000 00:09 93540997                       /dmabuf:
-7006c21000-7006c29000 rw-s 00000000 00:09 93540995                       /dmabuf:
-7006c29000-7006c2a000 ---p 00000000 00:00 0 
-7006c2a000-7006c32000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7006c1a000-7006c22000 rw-s 00000000 00:09 113409655                      /dmabuf:
+7006c22000-7006c32000 rw-s 00016000 00:11 2737                           /dev/kgsl-3d0
 7006c32000-7006c52000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006c52000-7006c95000 r--p 00000000 fd:06 3052                           /system/lib64/libhidlbase.so
 7006c95000-7006cf1000 r-xp 00043000 fd:06 3052                           /system/lib64/libhidlbase.so
 7006cf1000-7006cfc000 r--p 0009f000 fd:06 3052                           /system/lib64/libhidlbase.so
 7006cfc000-7006cfd000 rw-p 000a9000 fd:06 3052                           /system/lib64/libhidlbase.so
-7006cff000-7006d00000 ---p 00000000 00:00 0 
-7006d00000-7006d08000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7006d00000-7006d08000 rw-s 00000000 00:09 113409653                      /dmabuf:
 7006d08000-7006d1d000 r--p 00000000 fd:06 2638                           /system/lib64/android.hardware.camera.device@3.2.so
 7006d1d000-7006d33000 r-xp 00015000 fd:06 2638                           /system/lib64/android.hardware.camera.device@3.2.so
 7006d33000-7006d37000 r--p 0002b000 fd:06 2638                           /system/lib64/android.hardware.camera.device@3.2.so
 7006d37000-7006d38000 rw-p 0002e000 fd:06 2638                           /system/lib64/android.hardware.camera.device@3.2.so
 7006d3a000-7006d3e000 rw-s 0002c000 00:11 2737                           /dev/kgsl-3d0
-7006d3e000-7006d46000 rw-s 0001a000 00:11 2737                           /dev/kgsl-3d0
+7006d3e000-7006d46000 rw-s 00000000 00:09 113409651                      /dmabuf:
 7006d46000-7006d66000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006d66000-7006d71000 r--p 00000000 07:28 31                             /apex/com.android.i18n/lib64/libicu.so
 7006d71000-7006d73000 r-xp 0000b000 07:28 31                             /apex/com.android.i18n/lib64/libicu.so
 7006d73000-7006d74000 r--p 0000d000 07:28 31                             /apex/com.android.i18n/lib64/libicu.so
-7006d74000-7006d76000 rw-s 0002b000 00:11 2737                           /dev/kgsl-3d0
-7006d76000-7006d7a000 rw-s 0002a000 00:11 2737                           /dev/kgsl-3d0
-7006d7a000-7006d7b000 rw-s 00029000 00:11 2737                           /dev/kgsl-3d0
+7006d77000-7006d7b000 rw-s 0002a000 00:11 2737                           /dev/kgsl-3d0
 7006d7b000-7006d9b000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006d9b000-7006da7000 r--p 00000000 fd:06 3138                           /system/lib64/libmediadrmmetrics_lite.so
 7006da7000-7006db6000 r-xp 0000c000 fd:06 3138                           /system/lib64/libmediadrmmetrics_lite.so
 7006db6000-7006db7000 r--p 0001b000 fd:06 3138                           /system/lib64/libmediadrmmetrics_lite.so
 7006db7000-7006db9000 rw-p 0001b000 fd:06 3138                           /system/lib64/libmediadrmmetrics_lite.so
-7006db9000-7006dba000 rw-s 00028000 00:11 2737                           /dev/kgsl-3d0
-7006dba000-7006dbb000 rw-s 00027000 00:11 2737                           /dev/kgsl-3d0
-7006dbb000-7006dbc000 rw-s 00026000 00:11 2737                           /dev/kgsl-3d0
 7006dbc000-7006dd6000 r--s 00033000 fd:06 504                            /system/app/miuisystem/miuisystem.apk
 7006dd6000-7006dd8000 r--p 00000000 fd:12 132                            /apex/com.android.art/lib64/libsigchain.so
 7006dd8000-7006ddc000 r-xp 00002000 fd:12 132                            /apex/com.android.art/lib64/libsigchain.so
 7006ddc000-7006ddd000 r--p 00006000 fd:12 132                            /apex/com.android.art/lib64/libsigchain.so
 7006ddd000-7006dde000 rw-p 00006000 fd:12 132                            /apex/com.android.art/lib64/libsigchain.so
 7006dde000-7006ddf000 rw-p 00000000 00:00 0                              [anon:.bss]
-7006ddf000-7006de0000 rw-s 00025000 00:11 2737                           /dev/kgsl-3d0
 7006de0000-7006dfa000 r--p 00000000 fd:06 1627                           /system/fonts/NotoSansAdlam-VF.ttf
 7006dfa000-7006e3a000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006e3a000-7006e3b000 r--p 00000000 fd:06 2636                           /system/lib64/android.hardware.camera.common@1.0.so
 7006e3b000-7006e3c000 r-xp 00001000 fd:06 2636                           /system/lib64/android.hardware.camera.common@1.0.so
 7006e3c000-7006e3d000 r--p 00002000 fd:06 2636                           /system/lib64/android.hardware.camera.common@1.0.so
-7006e3d000-7006e3e000 rw-s 00024000 00:11 2737                           /dev/kgsl-3d0
-7006e3e000-7006e3f000 rw-s 00023000 00:11 2737                           /dev/kgsl-3d0
-7006e3f000-7006e40000 rw-s 00022000 00:11 2737                           /dev/kgsl-3d0
+7006e3e000-7006e40000 rw-p 00000000 00:00 0
 7006e40000-7006e50000 r--p 00000000 fd:06 2781                           /system/lib64/audioflinger-aidl-cpp.so
 7006e50000-7006e77000 r-xp 00010000 fd:06 2781                           /system/lib64/audioflinger-aidl-cpp.so
 7006e77000-7006e7d000 r--p 00037000 fd:06 2781                           /system/lib64/audioflinger-aidl-cpp.so
 7006e7d000-7006e7e000 rw-p 0003c000 fd:06 2781                           /system/lib64/audioflinger-aidl-cpp.so
-7006e7e000-7006e86000 rw-s 00000000 00:09 93546547                       /dmabuf:
-7006e86000-7006e8e000 rw-s 00012000 00:11 2737                           /dev/kgsl-3d0
-7006e8e000-7006e93000 rw-s 00008000 00:11 2737                           /dev/kgsl-3d0
+7006e7f000-7006e81000 rw-s 0002b000 00:11 2737                           /dev/kgsl-3d0
+7006e81000-7006e82000 rw-s 00029000 00:11 2737                           /dev/kgsl-3d0
+7006e82000-7006e83000 rw-s 00028000 00:11 2737                           /dev/kgsl-3d0
+7006e83000-7006e8b000 rw-s 0001a000 00:11 2737                           /dev/kgsl-3d0
+7006e8b000-7006e93000 rw-s 00000000 00:09 113409649                      /dmabuf:
 7006e93000-7006e9a000 r--p 00000000 fd:06 3039                           /system/lib64/libgraphicsenv.so
 7006e9a000-7006e9f000 r-xp 00007000 fd:06 3039                           /system/lib64/libgraphicsenv.so
 7006e9f000-7006ea1000 r--p 0000c000 fd:06 3039                           /system/lib64/libgraphicsenv.so
@@ -1563,97 +1506,95 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7006ec2000-7006eca000 r--p 00000000 fd:06 3385                           /system/lib64/libziparchive.so
 7006eca000-7006ed5000 r-xp 00008000 fd:06 3385                           /system/lib64/libziparchive.so
 7006ed5000-7006ed6000 r--p 00013000 fd:06 3385                           /system/lib64/libziparchive.so
-7006ed6000-7006ed7000 rw-s 0001f000 00:11 2737                           /dev/kgsl-3d0
-7006ed7000-7006ed8000 rw-s 0001e000 00:11 2737                           /dev/kgsl-3d0
-7006ed8000-7006ee0000 r--s fff00000 00:11 2737                           /dev/kgsl-3d0
+7006ed6000-7006ed7000 rw-s 00027000 00:11 2737                           /dev/kgsl-3d0
+7006ed7000-7006ed8000 ---p 00000000 00:00 0
+7006ed8000-7006ee0000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 7006ee0000-7006f00000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006f00000-7006f05000 r--p 00000000 fd:06 2852                           /system/lib64/libappfuse.so
 7006f05000-7006f0c000 r-xp 00005000 fd:06 2852                           /system/lib64/libappfuse.so
 7006f0c000-7006f0d000 r--p 0000c000 fd:06 2852                           /system/lib64/libappfuse.so
 7006f0d000-7006f0e000 rw-p 0000c000 fd:06 2852                           /system/lib64/libappfuse.so
-7006f0e000-7006f0f000 rw-s 0001d000 00:11 2737                           /dev/kgsl-3d0
-7006f0f000-7006f11000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
+7006f0e000-7006f0f000 rw-s 00026000 00:11 2737                           /dev/kgsl-3d0
+7006f0f000-7006f10000 rw-s 00025000 00:11 2737                           /dev/kgsl-3d0
+7006f10000-7006f11000 rw-s 00024000 00:11 2737                           /dev/kgsl-3d0
 7006f11000-7006f25000 r--p 00000000 fd:06 1765                           /system/fonts/NotoSansTamilUI-VF.ttf
 7006f25000-7006f65000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7006f65000-7006f72000 r--p 00000000 fd:06 3082                           /system/lib64/libjpeg.so
 7006f72000-7006fbb000 r-xp 0000d000 fd:06 3082                           /system/lib64/libjpeg.so
 7006fbb000-7006fbc000 r--p 00056000 fd:06 3082                           /system/lib64/libjpeg.so
 7006fbc000-7006fbd000 rw-p 00056000 fd:06 3082                           /system/lib64/libjpeg.so
-7006fbd000-7006fbe000 rw-s 0001c000 00:11 2737                           /dev/kgsl-3d0
-7006fbe000-7006fd0000 r--p 00000000 fd:06 1750                           /system/fonts/NotoSansSoyombo-VF.ttf
+7006fbd000-7006fbe000 rw-s 00023000 00:11 2737                           /dev/kgsl-3d0
+7006fbe000-7006fbf000 ---p 00000000 00:00 0
+7006fbf000-7006fc7000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7006fc7000-7006fc8000 ---p 00000000 00:00 0
+7006fc8000-7006fd0000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 7006fd0000-7006fdb000 r--p 00000000 fd:06 2910                           /system/lib64/libbufferhubqueue.so
 7006fdb000-7006fea000 r-xp 0000b000 fd:06 2910                           /system/lib64/libbufferhubqueue.so
 7006fea000-7006feb000 r--p 0001a000 fd:06 2910                           /system/lib64/libbufferhubqueue.so
 7006feb000-7006fec000 rw-p 0001a000 fd:06 2910                           /system/lib64/libbufferhubqueue.so
-7006fec000-7006fee000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
-7006fee000-7006fef000 r--s 00000000 fd:09 1154                           /vendor/etc/passwd
-7006fef000-7006ff0000 rw-s 00014000 00:11 2737                           /dev/kgsl-3d0
+7006fec000-7006fed000 rw-s 00022000 00:11 2737                           /dev/kgsl-3d0
+7006fed000-7006fee000 rw-s 0001f000 00:11 2737                           /dev/kgsl-3d0
+7006fee000-7006ff0000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
 7006ff0000-7007004000 r--p 00000000 fd:06 1764                           /system/fonts/NotoSansTamil-VF.ttf
 7007004000-7007015000 r--p 00000000 fd:06 3133                           /system/lib64/libmedia_omx.so
 7007015000-700702c000 r-xp 00011000 fd:06 3133                           /system/lib64/libmedia_omx.so
 700702c000-7007033000 r--p 00028000 fd:06 3133                           /system/lib64/libmedia_omx.so
 7007033000-7007034000 rw-p 0002e000 fd:06 3133                           /system/lib64/libmedia_omx.so
-7007034000-7007038000 rw-s 0000c000 00:11 2737                           /dev/kgsl-3d0
-7007038000-7007046000 r--p 00000000 fd:06 1704                           /system/fonts/NotoSansMedefaidrin-VF.ttf
+7007034000-7007046000 r--p 00000000 fd:06 1750                           /system/fonts/NotoSansSoyombo-VF.ttf
 7007046000-7007066000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007066000-7007068000 r--p 00000000 fd:06 2762                           /system/lib64/android.hidl.token@1.0-utils.so
 7007068000-7007069000 r-xp 00002000 fd:06 2762                           /system/lib64/android.hidl.token@1.0-utils.so
 7007069000-700706a000 r--p 00003000 fd:06 2762                           /system/lib64/android.hidl.token@1.0-utils.so
 700706a000-700706b000 rw-p 00003000 fd:06 2762                           /system/lib64/android.hidl.token@1.0-utils.so
-700706b000-700706c000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+700706b000-700706c000 rw-s 0001e000 00:11 2737                           /dev/kgsl-3d0
 700706c000-700708c000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700708c000-700708e000 r--p 00000000 fd:06 3151                           /system/lib64/libmemtrack.so
 700708e000-7007090000 r-xp 00002000 fd:06 3151                           /system/lib64/libmemtrack.so
 7007090000-7007091000 r--p 00004000 fd:06 3151                           /system/lib64/libmemtrack.so
 7007091000-7007092000 rw-p 00004000 fd:06 3151                           /system/lib64/libmemtrack.so
-7007092000-7007093000 rw-s 00013000 00:11 2737                           /dev/kgsl-3d0
-7007093000-70070a3000 r--p 00000000 fd:06 1668                           /system/fonts/NotoSansGurmukhiUI-VF.ttf
+7007092000-7007093000 rw-s 0001d000 00:11 2737                           /dev/kgsl-3d0
+7007093000-7007095000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
+7007095000-70070a3000 r--p 00000000 fd:06 1704                           /system/fonts/NotoSansMedefaidrin-VF.ttf
 70070a3000-70070e3000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 70070e3000-70070e5000 r--p 00000000 fd:06 2784                           /system/lib64/av-types-aidl-cpp.so
 70070e5000-70070e6000 r-xp 00002000 fd:06 2784                           /system/lib64/av-types-aidl-cpp.so
 70070e6000-70070e7000 r--p 00003000 fd:06 2784                           /system/lib64/av-types-aidl-cpp.so
-70070e7000-70070e8000 rw-s 00011000 00:11 2737                           /dev/kgsl-3d0
-70070e8000-70070e9000 rw-s 00010000 00:11 2737                           /dev/kgsl-3d0
-70070e9000-70070ea000 rw-s 0000f000 00:11 2737                           /dev/kgsl-3d0
-70070ea000-70070eb000 ---p 00000000 00:00 0 
-70070eb000-70070f3000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+70070e7000-70070e8000 rw-s 0001c000 00:11 2737                           /dev/kgsl-3d0
+70070e8000-70070e9000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+70070e9000-70070ea000 r--s 00000000 fd:09 1154                           /vendor/etc/passwd
+70070ea000-70070eb000 rw-s 00014000 00:11 2737                           /dev/kgsl-3d0
+70070eb000-70070f3000 rw-s 00012000 00:11 2737                           /dev/kgsl-3d0
 70070f3000-7007113000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007113000-700711d000 r--p 00000000 fd:06 2679                           /system/lib64/android.hardware.graphics.allocator@4.0.so
 700711d000-7007127000 r-xp 0000a000 fd:06 2679                           /system/lib64/android.hardware.graphics.allocator@4.0.so
 7007127000-7007129000 r--p 00014000 fd:06 2679                           /system/lib64/android.hardware.graphics.allocator@4.0.so
 7007129000-700712a000 rw-p 00015000 fd:06 2679                           /system/lib64/android.hardware.graphics.allocator@4.0.so
-700712a000-700712b000 rw-s 0000e000 00:11 2737                           /dev/kgsl-3d0
-700712b000-700712c000 rw-s 0000d000 00:11 2737                           /dev/kgsl-3d0
-700712c000-700712d000 rw-s 0000a000 00:11 2737                           /dev/kgsl-3d0
-700712d000-700713d000 r--p 00000000 fd:06 1667                           /system/fonts/NotoSansGurmukhi-VF.ttf
+700712a000-700712b000 rw-s 00013000 00:11 2737                           /dev/kgsl-3d0
+700712b000-700712c000 rw-s 00011000 00:11 2737                           /dev/kgsl-3d0
+700712c000-700712d000 rw-s 00010000 00:11 2737                           /dev/kgsl-3d0
+700712d000-700713d000 r--p 00000000 fd:06 1668                           /system/fonts/NotoSansGurmukhiUI-VF.ttf
 700713d000-700717d000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700717d000-700717e000 r--p 00000000 fd:06 3044                           /system/lib64/libhardware.so
 700717e000-700717f000 r-xp 00001000 fd:06 3044                           /system/lib64/libhardware.so
 700717f000-7007180000 r--p 00002000 fd:06 3044                           /system/lib64/libhardware.so
-7007180000-7007181000 rw-s 00009000 00:11 2737                           /dev/kgsl-3d0
-7007181000-7007182000 rw-s 00007000 00:11 2737                           /dev/kgsl-3d0
-7007182000-7007186000 rw-s 00002000 00:11 2737                           /dev/kgsl-3d0
+7007180000-7007181000 rw-s 0000f000 00:11 2737                           /dev/kgsl-3d0
+7007181000-7007186000 rw-s 00008000 00:11 2737                           /dev/kgsl-3d0
 7007186000-70071a6000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 70071a6000-70071ad000 r--p 00000000 fd:06 3198                           /system/lib64/libnetdutils.so
 70071ad000-70071b9000 r-xp 00007000 fd:06 3198                           /system/lib64/libnetdutils.so
 70071b9000-70071ba000 r--p 00013000 fd:06 3198                           /system/lib64/libnetdutils.so
 70071ba000-70071bb000 rw-p 00013000 fd:06 3198                           /system/lib64/libnetdutils.so
-70071bb000-70071bc000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-70071bc000-70071bd000 rw-s 00006000 00:11 2737                           /dev/kgsl-3d0
-70071bd000-70071be000 rw-s 00005000 00:11 2737                           /dev/kgsl-3d0
-70071be000-70071bf000 ---p 00000000 00:00 0 
-70071bf000-70071c7000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+70071bb000-70071bf000 rw-s 0000c000 00:11 2737                           /dev/kgsl-3d0
+70071bf000-70071c7000 r--s fff00000 00:11 2737                           /dev/kgsl-3d0
 70071c7000-70071e7000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 70071e7000-70071ef000 r--p 00000000 fd:06 3038                           /system/lib64/libgralloctypes.so
 70071ef000-70071f9000 r-xp 00008000 fd:06 3038                           /system/lib64/libgralloctypes.so
 70071f9000-70071fa000 r--p 00012000 fd:06 3038                           /system/lib64/libgralloctypes.so
 70071fa000-70071fb000 rw-p 00012000 fd:06 3038                           /system/lib64/libgralloctypes.so
-70071fb000-70071fc000 rw-s 00004000 00:11 2737                           /dev/kgsl-3d0
-70071fc000-70071fe000 rw-p 00000000 fd:0b 1377931                        /data/dalvik-cache/arm64/system@framework@QXPerformance.jar@classes.vdex
-70071fe000-70071ff000 rw-s 00003000 00:11 2737                           /dev/kgsl-3d0
-70071ff000-7007200000 rw-s 00000000 00:01 93540990                       /dev/ashmem/GFXStats-28570 (deleted)
-7007200000-7007201000 rw-p 00000000 00:00 0 
-7007201000-7007202000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+70071fb000-70071fc000 rw-s 0000e000 00:11 2737                           /dev/kgsl-3d0
+70071fc000-70071fd000 rw-s 0000d000 00:11 2737                           /dev/kgsl-3d0
+70071fd000-70071fe000 rw-s 0000a000 00:11 2737                           /dev/kgsl-3d0
+70071fe000-7007202000 rw-s 00002000 00:11 2737                           /dev/kgsl-3d0
 7007202000-7007222000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007222000-7007224000 r--p 00000000 fd:06 2655                           /system/lib64/android.hardware.common-V2-ndk_platform.so
 7007224000-7007226000 r-xp 00002000 fd:06 2655                           /system/lib64/android.hardware.common-V2-ndk_platform.so
@@ -1664,51 +1605,56 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7007251000-7007263000 r-xp 00009000 fd:06 3335                           /system/lib64/libtinyxml2.so
 7007263000-7007264000 r--p 0001b000 fd:06 3335                           /system/lib64/libtinyxml2.so
 7007264000-7007265000 rw-p 0001b000 fd:06 3335                           /system/lib64/libtinyxml2.so
+7007265000-7007266000 rw-s 00009000 00:11 2737                           /dev/kgsl-3d0
 7007266000-7007284000 r--s 00000000 fd:06 4886                           /system/usr/hyphen-data/hyph-de-1996.hyb
 7007284000-7007298000 r--p 00000000 fd:06 2805                           /system/lib64/libEGL.so
 7007298000-70072b0000 r-xp 00014000 fd:06 2805                           /system/lib64/libEGL.so
 70072b0000-70072b5000 r--p 0002c000 fd:06 2805                           /system/lib64/libEGL.so
 70072b5000-70072b6000 rw-p 00030000 fd:06 2805                           /system/lib64/libEGL.so
 70072b6000-70072be000 rw-p 00000000 00:00 0                              [anon:.bss]
-70072bf000-70072c6000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-70072c6000-70072d7000 r--p 00000000 fd:06 1658                           /system/fonts/NotoSansGeorgian-VF.ttf
+70072be000-70072bf000 ---p 00000000 00:00 0
+70072bf000-70072c7000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+70072c7000-70072d7000 r--p 00000000 fd:06 1667                           /system/fonts/NotoSansGurmukhi-VF.ttf
 70072d7000-70072d8000 r--p 00000000 fd:06 3075                           /system/lib64/libion.so
 70072d8000-70072d9000 r-xp 00001000 fd:06 3075                           /system/lib64/libion.so
 70072d9000-70072da000 r--p 00002000 fd:06 3075                           /system/lib64/libion.so
 70072da000-70072db000 rw-p 00002000 fd:06 3075                           /system/lib64/libion.so
-70072db000-70072e6000 r--p 00000000 fd:06 1803                           /system/fonts/NotoSerifNyiakengPuachueHmong-VF.ttf
-70072e6000-70072ef000 r--p 00000000 fd:06 1630                           /system/fonts/NotoSansArmenian-VF.ttf
+70072db000-70072dc000 rw-s 00007000 00:11 2737                           /dev/kgsl-3d0
+70072dc000-70072dd000 rw-s 00006000 00:11 2737                           /dev/kgsl-3d0
+70072dd000-70072de000 rw-s 00005000 00:11 2737                           /dev/kgsl-3d0
+70072de000-70072ef000 r--p 00000000 fd:06 1658                           /system/fonts/NotoSansGeorgian-VF.ttf
 70072ef000-700730f000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700730f000-7007311000 r--p 00000000 fd:06 3280                           /system/lib64/libshmemcompat.so
 7007311000-7007313000 r-xp 00002000 fd:06 3280                           /system/lib64/libshmemcompat.so
 7007313000-7007314000 r--p 00004000 fd:06 3280                           /system/lib64/libshmemcompat.so
-7007314000-7007316000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-7007316000-7007317000 ---p 00000000 00:00 0 
-7007317000-700731f000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-700731f000-7007320000 ---p 00000000 00:00 0 
-7007320000-7007328000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7007314000-700731f000 r--p 00000000 fd:06 1803                           /system/fonts/NotoSerifNyiakengPuachueHmong-VF.ttf
+700731f000-7007328000 r--p 00000000 fd:06 1630                           /system/fonts/NotoSansArmenian-VF.ttf
 7007328000-7007348000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007348000-7007350000 r--p 00000000 fd:06 3124                           /system/lib64/liblzma.so
 7007350000-700736e000 r-xp 00008000 fd:06 3124                           /system/lib64/liblzma.so
 700736e000-700736f000 r--p 00026000 fd:06 3124                           /system/lib64/liblzma.so
 700736f000-7007370000 rw-p 00026000 fd:06 3124                           /system/lib64/liblzma.so
 7007370000-7007376000 rw-p 00000000 00:00 0                              [anon:.bss]
-7007376000-700737c000 r--p 00000000 fd:06 1810                           /system/fonts/NotoSerifYezidi-VF.ttf
-700737c000-7007384000 r--p 00000000 00:00 0                              [anon:dalvik-/system/framework/framework.jar-transformed]
+7007376000-7007377000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+7007377000-7007379000 rw-p 00000000 fd:0b 1377931                        /data/dalvik-cache/arm64/system@framework@QXPerformance.jar@classes.vdex
+7007379000-700737a000 rw-s 00004000 00:11 2737                           /dev/kgsl-3d0
+700737a000-700737b000 rw-s 00003000 00:11 2737                           /dev/kgsl-3d0
+700737b000-700737c000 ---p 00000000 00:00 0
+700737c000-7007384000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 7007384000-70073a4000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 70073a4000-70073ae000 r--p 00000000 fd:06 2763                           /system/lib64/android.hidl.token@1.0.so
 70073ae000-70073b6000 r-xp 0000a000 fd:06 2763                           /system/lib64/android.hidl.token@1.0.so
 70073b6000-70073b8000 r--p 00012000 fd:06 2763                           /system/lib64/android.hidl.token@1.0.so
 70073b8000-70073b9000 rw-p 00013000 fd:06 2763                           /system/lib64/android.hidl.token@1.0.so
-70073b9000-70073bc000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-70073bc000-70073bd000 ---p 00000000 00:00 0 
+70073b9000-70073ba000 rw-s 00000000 00:01 113409636                      /dev/ashmem/GFXStats-15245 (deleted)
+70073ba000-70073bb000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+70073bc000-70073bd000 ---p 00000000 00:00 0
 70073bd000-70073c5000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 70073c5000-70073cb000 r--p 00000000 fd:06 2780                           /system/lib64/audioclient-types-aidl-cpp.so
 70073cb000-70073d4000 r-xp 00006000 fd:06 2780                           /system/lib64/audioclient-types-aidl-cpp.so
 70073d4000-70073d5000 r--p 0000f000 fd:06 2780                           /system/lib64/audioclient-types-aidl-cpp.so
-70073d5000-70073d8000 r--s 000ad000 fd:06 504                            /system/app/miuisystem/miuisystem.apk
-70073d8000-70073da000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
-70073da000-70073db000 ---p 00000000 00:00 0 
+70073d6000-70073da000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+70073da000-70073db000 ---p 00000000 00:00 0
 70073db000-70073e3000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 70073e3000-7007403000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007403000-7007419000 r--p 00000000 fd:06 2708                           /system/lib64/android.hardware.media.bufferpool@2.0.so
@@ -1716,48 +1662,47 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7007439000-700743f000 r--p 00036000 fd:06 2708                           /system/lib64/android.hardware.media.bufferpool@2.0.so
 700743f000-7007440000 rw-p 0003b000 fd:06 2708                           /system/lib64/android.hardware.media.bufferpool@2.0.so
 7007440000-7007441000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-7007441000-7007442000 ---p 00000000 00:00 0 
-7007442000-7007443000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28575]
-7007443000-7007456000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28575]
-7007456000-7007457000 ---p 00000000 00:00 0 
+7007441000-7007442000 ---p 00000000 00:00 0
+7007442000-7007443000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15252]
+7007443000-7007456000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15252]
+7007456000-7007457000 ---p 00000000 00:00 0
 7007457000-7007458000 r--p 00000000 fd:06 3386                           /system/lib64/media_permission-aidl-cpp.so
 7007458000-7007459000 r-xp 00001000 fd:06 3386                           /system/lib64/media_permission-aidl-cpp.so
 7007459000-700745a000 r--p 00002000 fd:06 3386                           /system/lib64/media_permission-aidl-cpp.so
-700745a000-700745b000 r--s 0003e000 fd:06 4837                           /system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
-700745b000-7007461000 r--p 00000000 fd:06 1763                           /system/fonts/NotoSansTakri-VF.ttf
-7007461000-7007462000 ---p 00000000 00:00 0 
+700745a000-700745b000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+700745b000-7007461000 r--p 00000000 fd:06 1810                           /system/fonts/NotoSerifYezidi-VF.ttf
+7007461000-7007462000 ---p 00000000 00:00 0
 7007462000-700746a000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 700746a000-700748a000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700748a000-700748f000 r--p 00000000 fd:06 2957                           /system/lib64/libdataloader.so
 700748f000-700749a000 r-xp 00005000 fd:06 2957                           /system/lib64/libdataloader.so
 700749a000-700749b000 r--p 00010000 fd:06 2957                           /system/lib64/libdataloader.so
 700749b000-700749c000 rw-p 00010000 fd:06 2957                           /system/lib64/libdataloader.so
-700749c000-70074a2000 r--s 00175000 fd:0b 1652031                        /data/app/~~_YECY76nHk_G2N11WeNC4Q==/com.bytedance.raphael.demo-G0PGHFNfQloifsfb93Kbog==/base.apk
-70074a2000-70074a3000 ---p 00000000 00:00 0 
+700749c000-70074a2000 r--p 00000000 fd:06 1763                           /system/fonts/NotoSansTakri-VF.ttf
+70074a2000-70074a3000 ---p 00000000 00:00 0
 70074a3000-70074ab000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 70074ab000-70074ac000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-70074ac000-70074ad000 r--s 00041000 fd:06 4837                           /system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
-70074ad000-70074af000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
-70074af000-70074b0000 ---p 00000000 00:00 0 
+70074ac000-70074af000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+70074af000-70074b0000 ---p 00000000 00:00 0
 70074b0000-70074b8000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 70074b8000-70074d8000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 70074d8000-70074ff000 r--p 00000000 fd:06 2665                           /system/lib64/android.hardware.drm@1.4.so
 70074ff000-700752b000 r-xp 00027000 fd:06 2665                           /system/lib64/android.hardware.drm@1.4.so
 700752b000-7007534000 r--p 00053000 fd:06 2665                           /system/lib64/android.hardware.drm@1.4.so
 7007534000-7007535000 rw-p 0005b000 fd:06 2665                           /system/lib64/android.hardware.drm@1.4.so
-7007535000-7007536000 ---p 00000000 00:00 0 
+7007535000-7007536000 ---p 00000000 00:00 0
 7007536000-700753e000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-700753e000-700753f000 ---p 00000000 00:00 0 
+700753e000-700753f000 ---p 00000000 00:00 0
 700753f000-7007547000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 7007547000-7007567000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007567000-7007594000 r--p 00000000 fd:06 2918                           /system/lib64/libcamera_client.so
 7007594000-70075df000 r-xp 0002d000 fd:06 2918                           /system/lib64/libcamera_client.so
 70075df000-70075ec000 r--p 00078000 fd:06 2918                           /system/lib64/libcamera_client.so
 70075ec000-70075ed000 rw-p 00084000 fd:06 2918                           /system/lib64/libcamera_client.so
-70075ed000-70075ee000 ---p 00000000 00:00 0 
-70075ee000-70075ef000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28574]
-70075ef000-7007602000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28574]
-7007602000-7007603000 ---p 00000000 00:00 0 
+70075ed000-70075ee000 ---p 00000000 00:00 0
+70075ee000-70075ef000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15251]
+70075ef000-7007602000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15251]
+7007602000-7007603000 ---p 00000000 00:00 0
 7007603000-7007623000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7007623000-7007636000 r--p 00000000 fd:06 3147                           /system/lib64/libmediautils.so
 7007636000-700765e000 r-xp 00013000 fd:06 3147                           /system/lib64/libmediautils.so
@@ -1768,40 +1713,42 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 70076c3000-70076c8000 r--p 00000000 fd:06 2961                           /system/lib64/libdebuggerd_client.so
 70076c8000-70076cd000 r-xp 00005000 fd:06 2961                           /system/lib64/libdebuggerd_client.so
 70076cd000-70076ce000 r--p 0000a000 fd:06 2961                           /system/lib64/libdebuggerd_client.so
-70076ce000-70076cf000 r--s 00000000 00:01 40339                          /dev/ashmem/2df87ee4-e0f8-4e27-92f5-09615e5f7fe1 (deleted)
-70076cf000-70076d1000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
-70076d1000-70076d2000 ---p 00000000 00:00 0 
+70076ce000-70076d1000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+70076d1000-70076d2000 ---p 00000000 00:00 0
 70076d2000-70076da000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 70076da000-700773a000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700773a000-700773b000 r--p 00000000 fd:06 3051                           /system/lib64/libhidlallocatorutils.so
 700773b000-700773c000 r-xp 00001000 fd:06 3051                           /system/lib64/libhidlallocatorutils.so
 700773c000-700773d000 r--p 00002000 fd:06 3051                           /system/lib64/libhidlallocatorutils.so
-700773d000-7007745000 r--p 00000000 00:00 0                              [anon:dalvik-/system/framework/framework.jar-transformed]
+700773d000-7007745000 r--s 0013b000 fd:0b 1650405                        /data/app/~~TiPZ1aINlnXeyxaouq5wHQ==/com.bytedance.raphael.demo-ocjx-8U_yRL21CmMSvXLTg==/base.apk
 7007745000-7007752000 r--p 00000000 fd:06 2782                           /system/lib64/audiopolicy-aidl-cpp.so
 7007752000-700777b000 r-xp 0000d000 fd:06 2782                           /system/lib64/audiopolicy-aidl-cpp.so
 700777b000-700777f000 r--p 00036000 fd:06 2782                           /system/lib64/audiopolicy-aidl-cpp.so
 700777f000-7007780000 rw-p 00039000 fd:06 2782                           /system/lib64/audiopolicy-aidl-cpp.so
-7007780000-7007781000 r--s 00000000 00:01 40339                          /dev/ashmem/2df87ee4-e0f8-4e27-92f5-09615e5f7fe1 (deleted)
-7007781000-7007784000 r--p 00000000 00:00 0                              [anon:dalvik-/apex/com.android.art/javalib/core-libart.jar-transformed]
+7007780000-7007781000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
+7007781000-7007784000 r--s 000ad000 fd:06 504                            /system/app/miuisystem/miuisystem.apk
 7007784000-700778f000 r--p 00000000 fd:06 2691                           /system/lib64/android.hardware.graphics.mapper@2.0.so
 700778f000-700779b000 r-xp 0000b000 fd:06 2691                           /system/lib64/android.hardware.graphics.mapper@2.0.so
 700779b000-700779d000 r--p 00017000 fd:06 2691                           /system/lib64/android.hardware.graphics.mapper@2.0.so
 700779d000-700779e000 rw-p 00018000 fd:06 2691                           /system/lib64/android.hardware.graphics.mapper@2.0.so
-700779e000-70077a2000 r--p 00000000 00:00 0                              [anon:dalvik-/apex/com.android.art/javalib/core-oj.jar-transformed]
-70077a2000-70077a3000 ---p 00000000 00:00 0 
-70077a3000-70077a4000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28573]
-70077a4000-70077b7000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28573]
-70077b7000-70077b8000 ---p 00000000 00:00 0 
+700779e000-700779f000 r--s 0003e000 fd:06 4837                           /system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
+700779f000-70077a0000 r--s 00041000 fd:06 4837                           /system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
+70077a0000-70077a2000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
+70077a2000-70077a3000 ---p 00000000 00:00 0
+70077a3000-70077a4000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15250]
+70077a4000-70077b7000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15250]
+70077b7000-70077b8000 ---p 00000000 00:00 0
 70077b8000-70077d8000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 70077d8000-70077e0000 r--p 00000000 fd:06 3300                           /system/lib64/libstagefright_bufferqueue_helper.so
 70077e0000-70077ed000 r-xp 00008000 fd:06 3300                           /system/lib64/libstagefright_bufferqueue_helper.so
 70077ed000-70077ee000 r--p 00015000 fd:06 3300                           /system/lib64/libstagefright_bufferqueue_helper.so
-70077ee000-70077ef000 ---p 00000000 00:00 0 
+70077ee000-70077ef000 ---p 00000000 00:00 0
 70077ef000-70077f7000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-70077f7000-70077f8000 ---p 00000000 00:00 0 
+70077f7000-70077f8000 ---p 00000000 00:00 0
 70077f8000-7007800000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-7007800000-7008a00000 ---p 00000000 00:00 0 
-7008a00000-7008a02000 r--s 003b3000 fd:0b 1681210                        /data/system/theme/lockscreen
+7007800000-7008a00000 ---p 00000000 00:00 0
+7008a00000-7008a01000 r--s 00000000 00:01 40339                          /dev/ashmem/2df87ee4-e0f8-4e27-92f5-09615e5f7fe1 (deleted)
+7008a01000-7008a02000 r--s 00000000 00:01 40339                          /dev/ashmem/2df87ee4-e0f8-4e27-92f5-09615e5f7fe1 (deleted)
 7008a02000-7008a0b000 r--s 00000000 fd:06 4902                           /system/usr/hyphen-data/hyph-ga.hyb
 7008a0b000-7008a4b000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7008a4b000-7008a5c000 r--p 00000000 fd:06 3299                           /system/lib64/libstagefright_bufferpool@2.0.1.so
@@ -1829,7 +1776,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7008b3d000-7008b3e000 r--p 00022000 fd:12 125                            /apex/com.android.art/lib64/libnativeloader.so
 7008b3e000-7008b3f000 rw-p 00022000 fd:12 125                            /apex/com.android.art/lib64/libnativeloader.so
 7008b3f000-7008b40000 rw-p 00000000 00:00 0                              [anon:.bss]
-7008b40000-7008b42000 r--p 00000000 00:00 0                              [anon:dalvik-/system/framework/framework.jar-transformed]
+7008b40000-7008b42000 r--s 003b3000 fd:0b 1681210                        /data/system/theme/lockscreen
 7008b42000-7008b5f000 r--s 00201000 fd:06 1955                           /system/framework/ext.jar
 7008b5f000-7008b7f000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7008b7f000-7008b9b000 r--p 00000000 fd:06 3306                           /system/lib64/libstagefright_omx.so
@@ -1839,7 +1786,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7008bc9000-7008bca000 r--s 00000000 fd:0b 1996758                        /data/resource-cache/data@resource-cache@com.android.systemui-neutral-SFAI.frro@idmap
 7008bca000-7008be0000 r--s 0040e000 fd:06 1957                           /system/framework/framework-ext-res/framework-ext-res.apk
 7008be0000-7008c00000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
-7008c00000-7009400000 ---p 00000000 00:00 0 
+7008c00000-7009400000 ---p 00000000 00:00 0
 7009400000-7009406000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
 7009406000-7009446000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 7009446000-7009450000 r--p 00000000 fd:06 2822                           /system/lib64/libSurfaceFlingerProp.so
@@ -1878,11 +1825,11 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 70099d5000-70099e3000 r--p 003a1000 fd:06 3219                           /system/lib64/libpdfium.so
 70099e3000-70099e6000 rw-p 003ae000 fd:06 3219                           /system/lib64/libpdfium.so
 70099e6000-70099ee000 rw-p 00000000 00:00 0                              [anon:.bss]
-70099ee000-70099ef000 ---p 00000000 00:00 0 
+70099ee000-70099ef000 ---p 00000000 00:00 0
 70099ef000-70099f7000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-70099f7000-70099f8000 ---p 00000000 00:00 0 
+70099f7000-70099f8000 ---p 00000000 00:00 0
 70099f8000-7009a00000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-7009a00000-700c000000 ---p 00000000 00:00 0 
+7009a00000-700c000000 ---p 00000000 00:00 0
 700c000000-700c002000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
 700c002000-700c04b000 r--p 00000000 fd:06 2912                           /system/lib64/libc++.so
 700c04b000-700c0a8000 r-xp 00049000 fd:06 2912                           /system/lib64/libc++.so
@@ -1895,7 +1842,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 700c177000-700c17e000 r--p 000ae000 fd:06 3274                           /system/lib64/libsfplugin_ccodec.so
 700c17e000-700c17f000 rw-p 000b4000 fd:06 3274                           /system/lib64/libsfplugin_ccodec.so
 700c17f000-700c180000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
-700c180000-700c181000 ---p 00000000 00:00 0 
+700c180000-700c181000 ---p 00000000 00:00 0
 700c181000-700c189000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 700c189000-700c1c9000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700c1c9000-700c1d6000 r--p 00000000 fd:06 3161                           /system/lib64/libminikin.so
@@ -1904,7 +1851,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 700c1fc000-700c1fd000 rw-p 00032000 fd:06 3161                           /system/lib64/libminikin.so
 700c1fd000-700c1fe000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
 700c1fe000-700c200000 rw-p 00000000 00:00 0                              [anon:dalvik-indirect ref table]
-700c200000-700e800000 ---p 00000000 00:00 0 
+700c200000-700e800000 ---p 00000000 00:00 0
 700e800000-700e840000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700e840000-700e863000 r--p 00000000 fd:06 3293                           /system/lib64/libsqlite.so
 700e863000-700e955000 r-xp 00023000 fd:06 3293                           /system/lib64/libsqlite.so
@@ -1921,7 +1868,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 700e9ed000-700e9ee000 r--s 00000000 fd:06 4940                           /system/usr/hyphen-data/hyph-tk.hyb
 700e9ee000-700e9f0000 r--s 00000000 fd:06 4934                           /system/usr/hyphen-data/hyph-sl.hyb
 700e9f0000-700ea00000 r--p 00000000 fd:15 21                             /apex/com.android.tethering/javalib/framework-tethering.jar
-700ea00000-700f800000 ---p 00000000 00:00 0 
+700ea00000-700f800000 ---p 00000000 00:00 0
 700f800000-700f840000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700f840000-700f854000 r--p 00000000 fd:06 2710                           /system/lib64/android.hardware.media.c2@1.1.so
 700f854000-700f872000 r-xp 00014000 fd:06 2710                           /system/lib64/android.hardware.media.c2@1.1.so
@@ -1937,7 +1884,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 700f8e9000-700f8ea000 rw-p 00000000 00:00 0                              [anon:.bss]
 700f8ea000-700f8eb000 r--s 00000000 fd:06 4936                           /system/usr/hyphen-data/hyph-ta.hyb
 700f8eb000-700f8ec000 r--s 00000000 fd:06 4932                           /system/usr/hyphen-data/hyph-pt.hyb
-700f8ec000-700f8ed000 ---p 00000000 00:00 0 
+700f8ec000-700f8ed000 ---p 00000000 00:00 0
 700f8ed000-700f8f5000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 700f8f5000-700f915000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
 700f915000-700f91c000 r--p 00000000 fd:06 2988                           /system/lib64/libexpat.so
@@ -1965,7 +1912,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 700fc16000-700fc17000 r--s 00000000 fd:06 4922                           /system/usr/hyphen-data/hyph-mr.hyb
 700fc17000-700fc18000 r--s 00000000 fd:06 4918                           /system/usr/hyphen-data/hyph-ml.hyb
 700fc18000-700fc19000 r--s 00000000 fd:06 4916                           /system/usr/hyphen-data/hyph-la.hyb
-700fc19000-700fc1a000 ---p 00000000 00:00 0 
+700fc19000-700fc1a000 ---p 00000000 00:00 0
 700fc1a000-700fc22000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 700fc22000-700fc26000 r--p 00000000 07:40 17                             /apex/com.android.scheduling/javalib/framework-scheduling.jar
 700fc26000-700fc32000 r--p 00000000 fd:14 19                             /apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar
@@ -2002,7 +1949,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 700fe05000-700fe06000 r--p 00000000 07:68 39                             /apex/com.android.runtime/lib64/bionic/libdl.so
 700fe06000-700fe07000 r-xp 00001000 07:68 39                             /apex/com.android.runtime/lib64/bionic/libdl.so
 700fe07000-700fe08000 r--p 00002000 07:68 39                             /apex/com.android.runtime/lib64/bionic/libdl.so
-700fe08000-700fe09000 ---p 00000000 00:00 0 
+700fe08000-700fe09000 ---p 00000000 00:00 0
 700fe09000-700fe0a000 r--p 00000000 00:00 0                              [anon:.bss]
 700fe0a000-700fe0b000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
 700fe0b000-700fe0d000 r--s 00000000 fd:08 376                            /product/overlay/DevicesAndroidOverlay.apk
@@ -2175,7 +2122,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 70107de000-70107df000 r--s 000d1000 fd:0c 24                             /apex/com.android.wifi/javalib/framework-wifi.jar
 70107df000-70107e0000 r--s 0000f000 fd:15 21                             /apex/com.android.tethering/javalib/framework-tethering.jar
 70107e0000-7010800000 rw-p 00000000 00:00 0                              [anon:dalvik-thread local mark stack]
-7010800000-7013a00000 ---p 00000000 00:00 0 
+7010800000-7013a00000 ---p 00000000 00:00 0
 7013a00000-7013a01000 r--s 00065000 fd:15 20                             /apex/com.android.tethering/javalib/framework-connectivity.jar
 7013a01000-7013a59000 rw-p 00000000 00:00 0                              [anon:dalvik-thread local mark stack]
 7013a59000-7013a5d000 r--p 00000000 fd:06 3191                           /system/lib64/libnativewindow.so
@@ -2205,7 +2152,7 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7013bea000-7013beb000 rw-p 0009e000 fd:06 3128                           /system/lib64/libmedia.so
 7013beb000-7013bed000 r--s 00023000 07:70 17                             /apex/com.android.appsearch/javalib/framework-appsearch.jar
 7013bed000-7013bf5000 rw-p 00000000 00:00 0                              [anon:dalvik-thread local mark stack]
-7013bf5000-7013c35000 rw-p 00000000 00:00 0 
+7013bf5000-7013c35000 rw-p 00000000 00:00 0
 7013c35000-7013c3a000 r--p 00000000 fd:06 2796                           /system/lib64/framework-permission-aidl-cpp.so
 7013c3a000-7013c3d000 r-xp 00005000 fd:06 2796                           /system/lib64/framework-permission-aidl-cpp.so
 7013c3d000-7013c3f000 r--p 00008000 fd:06 2796                           /system/lib64/framework-permission-aidl-cpp.so
@@ -2326,12 +2273,12 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 701420c000-701422c000 r--s 00000000 00:11 2327                           /dev/__properties__/u:object_r:exported_config_prop:s0
 701422c000-701422d000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
 701422d000-701422e000 r--s 00000000 fd:0b 1665880                        /data/system/theme/framework-res
-701422e000-701422f000 ---p 00000000 00:00 0 
+701422e000-701422f000 ---p 00000000 00:00 0
 701422f000-7014237000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
-7014237000-7014238000 ---p 00000000 00:00 0 
-7014238000-7014239000 ---p 00000000 00:00 0                              [anon:stack_and_tls:28572]
-7014239000-701424c000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:28572]
-701424c000-701424d000 ---p 00000000 00:00 0 
+7014237000-7014238000 ---p 00000000 00:00 0
+7014238000-7014239000 ---p 00000000 00:00 0                              [anon:stack_and_tls:15249]
+7014239000-701424c000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:15249]
+701424c000-701424d000 ---p 00000000 00:00 0
 701424d000-701426d000 r--s 00000000 00:11 2310                           /dev/__properties__/u:object_r:device_config_runtime_native_boot_prop:s0
 701426d000-701428d000 r--s 00000000 00:11 2293                           /dev/__properties__/u:object_r:dalvik_config_prop:s0
 701428d000-70142ad000 r--s 00000000 00:11 2295                           /dev/__properties__/u:object_r:dalvik_runtime_prop:s0
@@ -2361,9 +2308,9 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7014549000-7014569000 r--s 00000000 00:11 2607                           /dev/__properties__/properties_serial
 7014569000-701456d000 rw-p 00000000 00:00 0                              [anon:System property context nodes]
 701456d000-7014585000 r--s 00000000 00:11 2226                           /dev/__properties__/property_info
-7014585000-7014586000 ---p 00000000 00:00 0 
+7014585000-7014586000 ---p 00000000 00:00 0
 7014586000-701458a000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:main]
-701458a000-701458b000 ---p 00000000 00:00 0 
+701458a000-701458b000 ---p 00000000 00:00 0
 701458b000-701458d000 r--p 00024000 fd:06 1924                           /system/framework/arm64/boot-voip-common.art
 701458d000-701458e000 r--p 00009000 fd:06 1897                           /system/framework/arm64/boot-ext.art
 701458e000-701458f000 r--p 00001000 fd:06 1900                           /system/framework/arm64/boot-framework-graphics.art
@@ -2384,19 +2331,19 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 7014773000-7014774000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
 7014774000-7014794000 r--s 00000000 00:11 2297                           /dev/__properties__/u:object_r:debug_prop:s0
 7014794000-70147b4000 r--s 00000000 00:11 2256                           /dev/__properties__/u:object_r:build_prop:s0
-70147b4000-70147b5000 ---p 00000000 00:00 0 
-70147b5000-70147bd000 rw-p 00000000 00:00 0 
-70147bd000-70147be000 ---p 00000000 00:00 0 
+70147b4000-70147b5000 ---p 00000000 00:00 0
+70147b5000-70147bd000 rw-p 00000000 00:00 0
+70147bd000-70147be000 ---p 00000000 00:00 0
 70147be000-70147de000 r--s 00000000 00:11 2607                           /dev/__properties__/properties_serial
 70147de000-70147e2000 rw-p 00000000 00:00 0                              [anon:System property context nodes]
 70147e2000-70147fa000 r--s 00000000 00:11 2226                           /dev/__properties__/property_info
 70147fa000-701485e000 r--p 00000000 00:00 0                              [anon:linker_alloc]
 701485e000-7014860000 rw-p 00000000 00:00 0                              [anon:bionic_alloc_small_objects]
 7014860000-7014861000 r--p 00000000 00:00 0                              [anon:atexit handlers]
-7014861000-7014e04000 ---p 00000000 00:00 0 
-7014e04000-7014e06000 rw-p 00000000 00:00 0 
-7014e06000-7015861000 ---p 00000000 00:00 0 
-7015861000-7015862000 ---p 00000000 00:00 0 
+7014861000-7014e04000 ---p 00000000 00:00 0
+7014e04000-7014e06000 rw-p 00000000 00:00 0
+7014e06000-7015861000 ---p 00000000 00:00 0
+7015861000-7015862000 ---p 00000000 00:00 0
 7015862000-701586a000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
 701586a000-701586b000 rw-p 00000000 00:00 0                              [anon:arc4random data]
 701586b000-701586c000 r--p 0000d000 fd:12 59                             /apex/com.android.art/javalib/arm64/boot-okhttp.art
@@ -2411,5 +2358,5 @@ ebad6000-ebad7000 ---p 00000000 00:00 0                                  [anon:d
 701599a000-701599e000 rw-p 00000000 00:00 0                              [anon:.bss]
 701599e000-701599f000 r--p 00000000 00:00 0                              [anon:.bss]
 701599f000-70159a5000 rw-p 00000000 00:00 0                              [anon:.bss]
-7fe3889000-7fe388a000 ---p 00000000 00:00 0 
+7fe3889000-7fe388a000 ---p 00000000 00:00 0
 7fe388a000-7fe4089000 rw-p 00000000 00:00 0                              [stack]

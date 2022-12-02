@@ -25,6 +25,7 @@
 
 //**************************************************************************************************
 void Raphael::start(JNIEnv *env, jobject obj, jint configs, jstring space, jstring regex) {
+    LOGGER("unwind >>> ");
     const char *string = (char *) env->GetStringUTFChars(space, 0);
     size_t length = strlen(string);
     mSpace = (char *) malloc(length+1);

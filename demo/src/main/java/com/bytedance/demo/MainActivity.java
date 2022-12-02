@@ -1,6 +1,8 @@
 package com.bytedance.demo;
 
+import android.Manifest;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -22,12 +24,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle state) {
         super.onCreate(state);
-        System.loadLibrary("test");
         setContentView(R.layout.main);
-        MemoryHookTestNative.mma();
+        request();
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                MemoryHookTestNative.mma();
                 Raphael.print();
             }
         });
@@ -60,5 +63,17 @@ public class MainActivity extends AppCompatActivity {
                 }).start();
             }
         });
+    }
+
+//    private void requestPermission() {
+//        if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+//            Toast.makeText(MainActivity.this, "Please grante write storage permission", Toast.LENGTH_LONG).show();
+//        } else {
+//            ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+//        }
+//    }
+
+    private void request() {
+        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
     }
 }

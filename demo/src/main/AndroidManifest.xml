@@ -10,6 +10,7 @@
         android:name="com.bytedance.demo.DemoApp"
         android:label="Raphael"
         android:icon="@drawable/icon"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:allowBackup="true">
 
