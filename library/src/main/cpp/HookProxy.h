@@ -70,6 +70,7 @@ static inline void insert_memory_backtrace(void *address, size_t size) {
 #endif
 
     LOGGER("unwind >>>11 %s", backtrace.trace);
+//    LOGGER("unwind >>>11 %s", &backtrace);
     cache->insert((uintptr_t) address, size, &backtrace);
 }
 

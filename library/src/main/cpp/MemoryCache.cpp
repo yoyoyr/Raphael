@@ -55,7 +55,9 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
     for (int i = 0; alloc_node->trace[i] != 0; i++) {
         uintptr_t pc = alloc_node->trace[i];
         Dl_info info;
+        //xdl_addr() 返回pc值对应的符号
         if (0 == xdl_addr((void *) pc, &info, dl_cache) || (uintptr_t) info.dli_fbase > pc) {
+            LOGGER("unwind >>>1");
             fprintf(
                     output,
                     STACK_FORMAT_UNKNOWN,
@@ -63,6 +65,7 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
             );
         } else {
             if (nullptr == info.dli_fname || '\0' == info.dli_fname[0]) {
+                LOGGER("unwind >>>2");
                 fprintf(
                         output,
                         STACK_FORMAT_ANONYMOUS,
@@ -71,6 +74,7 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
                 );
             } else {
                 if (nullptr == info.dli_sname || '\0' == info.dli_sname[0]) {
+                    LOGGER("unwind >>>3");
                     fprintf(
                             output,
                             STACK_FORMAT_FILE,
@@ -86,6 +90,7 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
                             &s
                     );
                     if (0 == (uintptr_t) info.dli_saddr || (uintptr_t) info.dli_saddr > pc) {
+                        LOGGER("unwind >>>4");
                         fprintf(
                                 output,
                                 STACK_FORMAT_FILE_NAME,
@@ -94,6 +99,7 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
                                 symbol == nullptr ? info.dli_sname : symbol
                         );
                     } else {
+                        LOGGER("unwind >>>5");
                         fprintf(
                                 output,
                                 STACK_FORMAT_FILE_NAME_LINE,
@@ -104,6 +110,7 @@ void write_trace(FILE *output, AllocNode *alloc_node, MapData *map_data, void **
                         );
                     }
                     if (symbol != nullptr) {
+                        LOGGER("unwind >>>6");
                         free((void *) symbol);
                     }
                 }

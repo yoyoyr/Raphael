@@ -19,6 +19,7 @@
 #include <cinttypes>
 #include <cstring>
 #include <unistd.h>
+#include <Logger.h>
 
 static uintptr_t fp_main_thread_stack_low = 0;
 static uintptr_t fp_main_thread_stack_high = 0;
@@ -41,6 +42,7 @@ void init_arm64_unwind() {
 size_t unwind_backtrace(uintptr_t *stack, size_t max_depth) {
     uintptr_t st; // stack top
     uintptr_t sb; // stack bottom
+    //获取线程栈顶和栈底地址
     if (use_thread_local) {
         if ((st = (uintptr_t) pthread_getspecific(thread_t_key)) == 0 ||
             (sb = (uintptr_t) pthread_getspecific(thread_b_key)) == 0) {
@@ -63,18 +65,32 @@ size_t unwind_backtrace(uintptr_t *stack, size_t max_depth) {
         }
     }
 
+    //得到函数的栈帧
     auto fp = (uintptr_t) __builtin_frame_address(0);
 
     size_t depth = 0;
     uintptr_t pc = 0;
+    LOGGER("unwind >>> %lu", (sb-st));
     while (isValid(fp, st, sb) && depth < max_depth) {
         uintptr_t tt = *((uintptr_t *) fp + 1);
         uintptr_t pre = *((uintptr_t *) fp);
-        if (pre & 0xfu || pre < fp + kFrameSize) {
+        LOGGER("unwind >>>  fp %lu pre %lu tt %lu ", fp, pre, tt);
+//        if (pre & 0xfu || pre < fp + kFrameSize) {
+//            LOGGER("unwind >>> break");
+//            break;
+//        }
+        if (pre & 0xfu) {
+            LOGGER("unwind >>> break");
             break;
         }
+        if (pre < fp + kFrameSize) {
+            LOGGER("unwind >>> break  pre ");
+            break;
+        }
+
         if (tt != pc) {
             stack[depth++] = tt;
+            LOGGER("unwind >>> %d", depth);
         }
         pc = tt;
         sb = fp;

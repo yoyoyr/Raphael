@@ -38,8 +38,8 @@ extern "C" {
 #define ALLOC_CACHE_SIZE 1 << 15
 
 typedef struct {
-    uint32_t          depth;
-    uintptr_t         trace[MAX_TRACE_DEPTH];
+    uint32_t          depth;//栈帧个数
+    uintptr_t         trace[MAX_TRACE_DEPTH];//栈帧地址
 } Backtrace;
 
 struct AllocNode {
